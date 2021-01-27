@@ -7,7 +7,7 @@ class Education extends Component {
         return(
             <Wrapper>
                 <HeaderText>
-                    this is the Education page
+                    Education page
                 </HeaderText>
             </Wrapper>
         );

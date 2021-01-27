@@ -4,9 +4,14 @@ const ButtonWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    background-color: black;
+    padding: 1rem;
+`;
+
+const Wrapper = styled.div`
+    background-color: black;
 `;
 
 export {
-    ButtonWrapper
+    ButtonWrapper, Wrapper
 }

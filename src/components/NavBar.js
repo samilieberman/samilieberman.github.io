@@ -14,13 +14,13 @@ class NavBar extends Component {
                     <Link to='/' activeClass="active" className="nav-link">
                         Home
                     </Link>
-                    <Link to="education" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true} offset={-20}>
+                    <Link to="education" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true} offset={-5}>
                         Education
                     </Link>
-                    <Link to="work" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true} offset={-20}>
+                    <Link to="work" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true} offset={-5}>
                         Work
                     </Link>
-                    <Link to="contact" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true} offset={-20}>
+                    <Link to="contact" activeClass="active" className="nav-link" duration={1000} spy={true} smooth={true}>
                         Contact
                     </Link>
                     <BrowserRouter>

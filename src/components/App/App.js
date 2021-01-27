@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar'
-import Home from './components/Home/Home';
-import Education from './components/Education/Education';
-import Work from './components/Work/Work';
-import Contact from './components/Contact/Contact';
+import NavBar from '../NavBar'
+import Home from '../Home/Home';
+import Education from '../Education/Education';
+import Work from '../Work/Work';
+import Contact from '../Contact/Contact';
 import { Element } from "react-scroll";
 import { Button } from 'react-bootstrap';
-import { ButtonWrapper } from './styles';
+import { ButtonWrapper, Wrapper } from './styles';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Wrapper>
         <NavBar />
         <Element name="home" className="element">
           <Home />
@@ -27,9 +27,9 @@ class App extends Component {
           <Contact />
         </Element>
         <ButtonWrapper>
-          <Button variant="light" onClick={() => window.scrollTo(0, 0)}>⇧</Button>
+          <Button variant="dark" size="sm" onClick={() => window.scrollTo(0, 0)}>⇧</Button>
         </ButtonWrapper>
-      </div>
+      </Wrapper>
     );
   }
 }

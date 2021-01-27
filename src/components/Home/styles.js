@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 
 const InputWrapper = styled.div`
     color: white;
-    background-color: black;
-    background-image: url(./files/Yosemite.jpg);
+    background-image: url(./files/sunset.gif);
 `;
 
 const HeaderText = styled.div`

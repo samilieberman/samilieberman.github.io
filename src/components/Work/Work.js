@@ -7,7 +7,7 @@ class Work extends Component {
         return(
             <Wrapper>
                 <HeaderText>
-                    this is the WORK page
+                    WORK page
                 </HeaderText>
             </Wrapper>
         );
