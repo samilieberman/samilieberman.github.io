@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 const Wrapper = styled.div`
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 `;
 
 const Row = styled.div`
@@ -10,7 +10,6 @@ const Row = styled.div`
     display: flex;
     justify-content: center
 `;
-
 
 export {
     Wrapper, Row

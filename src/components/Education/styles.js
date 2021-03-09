@@ -1,15 +1,22 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 const Wrapper = styled.div`
-    background-color: black;
-    color: white;
-    height: 80vh;
+  background-color: white;
+  color: black;
+  height: 45vh;
+  margin-top: 30%;
+  width: 100%;
 `;
 
-const HeaderText = styled("h1")`
-    margin: 0;
+const Text = styled("h3")`
+  margin: 10px;
+  font-family: monospace;
 `;
 
-export {
-    Wrapper, HeaderText
-}
+const HeadingText = styled("h1")`
+  font-family: monospace;
+  font-weight: bold;
+`;
+
+
+export { Wrapper, Text, HeadingText };

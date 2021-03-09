@@ -1,22 +1,25 @@
-import React, { Component } from 'react';
-import './App.css';
-import NavBar from '../NavBar'
-import Home from '../Home/Home';
-import Education from '../Education/Education';
-import Work from '../Work/Work';
-import Contact from '../Contact/Contact';
+import React, { Component } from "react";
+import "./App.css";
+import NavBar from "../NavBar/NavBar";
+
+import Home from "../Home/Home";
+import Education from "../Education/Education";
+import Work from "../Work/Work";
+import Contact from "../Contact/Contact";
 import { Element } from "react-scroll";
-import { Button } from 'react-bootstrap';
-import { ButtonWrapper, Wrapper } from './styles';
+import { Button } from "react-bootstrap";
+import { ButtonWrapper, Wrapper, SmallWrapper } from "./styles";
 
 class App extends Component {
   render() {
     return (
       <Wrapper>
-        <NavBar />
-        <Element name="home" className="element">
-          <Home />
-        </Element>
+        <SmallWrapper>
+          <NavBar />
+          <Element name="home" className="element">
+            <Home />
+          </Element>
+        </SmallWrapper>
         <Element name="education" className="element">
           <Education />
         </Element>
@@ -27,7 +30,13 @@ class App extends Component {
           <Contact />
         </Element>
         <ButtonWrapper>
-          <Button variant="dark" size="sm" onClick={() => window.scrollTo(0, 0)}>⇧</Button>
+          <Button
+            variant="dark"
+            size="sm"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            ⇧
+          </Button>
         </ButtonWrapper>
       </Wrapper>
     );
