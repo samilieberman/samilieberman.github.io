@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Wrapper, Text, HeadingText } from "./styles";
-import { Col, Row, Image } from "react-bootstrap";
+import { Wrapper, Text, HeadingText, ImageWrapper } from "./styles";
+import { Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
@@ -10,7 +10,7 @@ class Education extends Component {
       <Wrapper>
         <Row>
           <Col xs={3}>
-            <Image height="30%" src="./files/gator.png"></Image>
+              <ImageWrapper/>
           </Col>
           <Col>
             <HeadingText> Education </HeadingText>

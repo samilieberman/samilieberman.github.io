@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import amex from '../../assets/amex-logo.svg'
 
 const Wrapper = styled.div`
     background-color: #343a40;
@@ -19,6 +20,13 @@ const HeadingText = styled("h1")`
   margin-top: 20px;
 `;
 
+const Image = styled.div`
+    background-image: url(${amex});
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+`;
+
 export {
-    Wrapper, HeadingText, Text
+    Wrapper, HeadingText, Text, Image
 }

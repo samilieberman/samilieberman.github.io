@@ -3,6 +3,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
 import { BrowserRouter, Link as DownloadLink } from "react-router-dom";
+import resume from '../../assets/Resume.pdf';
 class NavBar extends Component {
   render() {
     return (
@@ -43,7 +44,7 @@ class NavBar extends Component {
               </Link>
               <BrowserRouter>
                 <DownloadLink
-                  to="./files/Resume.pdf"
+                  to={resume}
                   target="_blank"
                   activeClass="active"
                   className="nav-link"

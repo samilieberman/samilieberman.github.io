@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import gator from '../../assets/gator.png'
 
 const Wrapper = styled.div`
   background-color: white;
@@ -18,5 +19,11 @@ const HeadingText = styled("h1")`
   font-weight: bold;
 `;
 
+const ImageWrapper = styled.div`
+  background-image: url(${gator});
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
 
-export { Wrapper, Text, HeadingText };
+export { Wrapper, Text, HeadingText, ImageWrapper };

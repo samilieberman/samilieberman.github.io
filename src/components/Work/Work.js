@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Col, Row, Image } from "react-bootstrap";
-import { Wrapper, Text, HeadingText } from "./styles";
+import { Col, Row } from "react-bootstrap";
+import { Wrapper, Text, HeadingText, Image } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
@@ -10,10 +10,7 @@ class Work extends Component {
       <Wrapper>
         <Row>
           <Col xs={3}>
-            <Image
-              height="30%"
-              src="./files/amex-american-express-logo.svg"
-            ></Image>
+            <Image />
           </Col>
           <Col>
             <HeadingText> Work </HeadingText>
