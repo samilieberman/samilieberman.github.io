@@ -11,11 +11,12 @@ const Wrapper = styled.div`
   background-color: white;
 `;
 
-const SmallWrapper = styled.div`
-  position:fixed;
-  width:100%;
-  z-index:2000;
+const Sticky = styled.div`
+  position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 `;
 
-export { ButtonWrapper, Wrapper, SmallWrapper };
+export { ButtonWrapper, Wrapper, Sticky };

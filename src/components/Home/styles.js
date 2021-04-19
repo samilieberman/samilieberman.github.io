@@ -8,7 +8,7 @@ const InputWrapper = styled.div`
 
 const HeaderText = styled.div`
     text-align: center;
-    padding: 8rem;
+    padding: 4rem;
 `;
 
 export {

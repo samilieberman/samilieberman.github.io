@@ -8,27 +8,32 @@ import Work from "../Work/Work";
 import Contact from "../Contact/Contact";
 import { Element } from "react-scroll";
 import { Button } from "react-bootstrap";
-import { ButtonWrapper, Wrapper, SmallWrapper } from "./styles";
+import { ButtonWrapper, Wrapper, Sticky } from "./styles";
 
 class App extends Component {
   render() {
     return (
       <Wrapper>
-        <SmallWrapper>
+        
+        <Sticky>
           <NavBar />
           <Element name="home" className="element">
             <Home />
           </Element>
-        </SmallWrapper>
+        </Sticky>
+        
         <Element name="education" className="element">
           <Education />
         </Element>
+        
         <Element name="work" className="element">
           <Work />
         </Element>
+
         <Element name="contact" className="element">
           <Contact />
         </Element>
+
         <ButtonWrapper>
           <Button
             variant="dark"

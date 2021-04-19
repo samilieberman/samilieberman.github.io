@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { Col, Row } from "react-bootstrap";
-import { Wrapper, Text, HeadingText, Image } from "./styles";
+import { Text, HeadingText, Image } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
 class Work extends Component {
   render() {
     return (
-      <Wrapper>
         <Row>
-          <Col xs={3}>
+          <Col xs={2}>
             <Image />
           </Col>
           <Col>
@@ -43,7 +42,6 @@ class Work extends Component {
             ))}
           </Col>
         </Row>
-      </Wrapper>
     );
   }
 }

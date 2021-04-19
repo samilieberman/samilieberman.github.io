@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Wrapper, Text, HeadingText, ImageWrapper } from "./styles";
+import { Text, HeadingText, ImageWrapper } from "./styles";
 import { Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
@@ -7,9 +7,8 @@ import data from "../../data.json";
 class Education extends Component {
   render() {
     return (
-      <Wrapper>
         <Row>
-          <Col xs={3}>
+          <Col xs={2}>
               <ImageWrapper/>
           </Col>
           <Col>
@@ -26,7 +25,6 @@ class Education extends Component {
             ))}
           </Col>
         </Row>
-      </Wrapper>
     );
   }
 }

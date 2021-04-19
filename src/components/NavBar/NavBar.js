@@ -7,7 +7,7 @@ import resume from '../../assets/Resume.pdf';
 class NavBar extends Component {
   render() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="light" variant="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
