@@ -1,16 +1,22 @@
 import styled from '@emotion/styled';
-import sunset from '../../assets/sunset.gif'
+import retro from '../../assets/retro.gif'
 
 const InputWrapper = styled.div`
     color: white;
-    background-image: url(${sunset});
+    background-image: url(${retro});
 `;
 
 const HeaderText = styled.div`
     text-align: center;
-    padding: 4rem;
+    padding: 2rem;
+`;
+
+const RowWrapper = styled.div`
+    padding: 1rem;
+    display: flex;
+    justify-content: center
 `;
 
 export {
-    InputWrapper,HeaderText
+    InputWrapper,HeaderText, RowWrapper
 }

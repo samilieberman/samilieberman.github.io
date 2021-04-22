@@ -3,13 +3,11 @@ import React, { Component } from "react";
 import { Wrapper } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-class Resume extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <HeaderText>this is the Resume page</HeaderText>
-      </Wrapper>
-    );
-  }
+function Resume() {
+  return (
+    <Wrapper>
+      <HeaderText>this is the Resume page</HeaderText>
+    </Wrapper>
+  );
 }
 export default Resume;

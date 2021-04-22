@@ -7,31 +7,13 @@ import resume from '../../assets/Resume.pdf';
 class NavBar extends Component {
   render() {
     return (
-        <Navbar bg="light" variant="light" expand="lg">
+        <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Link to="/" activeClass="active" className="nav-link">
                 Home
               </Link>
-              {/* <Link
-                to="education"
-                activeClass="active"
-                className="nav-link"
-                spy={true}
-                smooth={true}
-              >
-                Education
-              </Link>
-              <Link
-                to="work"
-                activeClass="active"
-                className="nav-link"
-                spy={true}
-                smooth={true}
-              >
-                Work
-              </Link> */}
               <Link
                 to="contact"
                 activeClass="active"
