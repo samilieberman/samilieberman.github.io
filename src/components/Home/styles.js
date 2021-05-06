@@ -4,6 +4,8 @@ import retro from '../../assets/retro.gif'
 const InputWrapper = styled.div`
     color: white;
     background-image: url(${retro});
+    background-repeat: no-repeat;
+    background-size: 100%;
 `;
 
 const HeaderText = styled.div`
@@ -11,12 +13,6 @@ const HeaderText = styled.div`
     padding: 2rem;
 `;
 
-const RowWrapper = styled.div`
-    padding: 1rem;
-    display: flex;
-    justify-content: center
-`;
-
 export {
-    InputWrapper,HeaderText, RowWrapper
+    InputWrapper,HeaderText
 }
