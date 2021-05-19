@@ -4,6 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import Home from "../Home/Home";
 import Education from "../Education/Education";
 import Work from "../Work/Work";
+import Projects from "../Projects/Projects";
 import { Element } from "react-scroll";
 import { Button } from "react-bootstrap";
 import { ButtonWrapper, Wrapper, Sticky } from "./styles";
@@ -25,6 +26,7 @@ function App() {
       </Sticky>
       <Education />
       <Work />
+      <Projects />
       <ButtonWrapper>
         <Button variant="dark" size="sm" onClick={() => window.scrollTo(0, 0)}>
           ⇧

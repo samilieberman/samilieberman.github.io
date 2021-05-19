@@ -13,12 +13,18 @@ const HeadingText = styled("h1")`
 `;
 
 const Image = styled.div`
-    background-image: url(${amex});
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url(${amex});
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
+
+const WorkWrapper = styled.div`
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:50px;
 `;
 
 export {
-    HeadingText, Text, Image
+    HeadingText, Text, Image, WorkWrapper
 }

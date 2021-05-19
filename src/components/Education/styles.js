@@ -18,9 +18,4 @@ const ImageWrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-const EducationWrapper = styled.div`
-  margin-top: 0.75rem;
-  border-bottom: 1px dotted black;
-`;
-
-export { Text, HeadingText, ImageWrapper, EducationWrapper };
+export { Text, HeadingText, ImageWrapper };
