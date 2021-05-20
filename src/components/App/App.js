@@ -7,7 +7,6 @@ import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import { Button } from "react-bootstrap";
 import { ButtonWrapper } from "./styles";
-import data from "../../data.json";
 
 const WIP = styled.div`
   padding: 2rem;
@@ -22,7 +21,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-      setBackground(randomColor);
+      if(randomColor !== '#23954') setBackground(randomColor);
     }, 2000);
     return () => clearInterval(interval);
   }, []);
@@ -37,9 +36,7 @@ function App() {
         </strong>
       </WIP>
       <NavBar />
-      {data.map((item, index) => (
-        <Home key={index} name={item.name} description={item.description} />
-      ))}
+      <Home />
       <Education />
       <Work />
       <Projects />
