@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
     background-color: blue;

@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components'
 import retro from '../../assets/retro.gif'
 
 const InputWrapper = styled.div`

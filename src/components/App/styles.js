@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from 'styled-components'
 
 const ButtonWrapper = styled.div`
   display: flex;
@@ -7,16 +7,12 @@ const ButtonWrapper = styled.div`
   padding-bottom: 1rem;
 `;
 
-const Wrapper = styled.div`
-  background-color: white;
-`;
-
 const Sticky = styled.div`
-  // position: sticky;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // z-index: 10;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 `;
 
-export { ButtonWrapper, Wrapper, Sticky };
+export { ButtonWrapper, Sticky };

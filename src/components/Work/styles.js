@@ -1,13 +1,13 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components'
 import amex from '../../assets/amex-logo.svg'
 
-const Text = styled("h3")`
+const Text = styled.h3`
   margin: 10px;
-  font-family: monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 `;
 
-const HeadingText = styled("h1")`
-  font-family: monospace;
+const HeadingText = styled.h1`
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   margin-top: 20px;
 `;

@@ -1,8 +1,8 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components'
 import projects from '../../assets/projects2.png'
 
-const HeadingText = styled("h1")`
-  font-family: monospace;
+const HeadingText = styled.h1`
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   margin-top: 20px;
 `;

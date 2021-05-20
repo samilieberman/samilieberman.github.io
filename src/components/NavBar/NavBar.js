@@ -9,13 +9,12 @@ class NavBar extends Component {
         <Navbar expand="lg">
             <Nav className="m-auto">
             <BrowserRouter>
-              <DownloadLink to="/" activeClass="active" className="nav-link">
+              <DownloadLink to="/" className="nav-link">
                 Home
               </DownloadLink>
                 <DownloadLink
                   to={resume}
                   target="_blank"
-                  activeClass="active"
                   className="nav-link"
                 >
                   Resume

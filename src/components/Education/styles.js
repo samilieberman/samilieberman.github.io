@@ -1,13 +1,13 @@
-import styled from "@emotion/styled";
+import styled from 'styled-components'
 import gator from '../../assets/gator.png'
 
-const Text = styled("h3")`
+const Text = styled.h3`
   margin: 10px;
-  font-family: monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 `;
 
-const HeadingText = styled("h1")`
-  font-family: monospace;
+const HeadingText = styled.h1`
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
 `;
 
@@ -18,4 +18,8 @@ const ImageWrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-export { Text, HeadingText, ImageWrapper };
+const Wrapper = styled.div`
+  padding: 50px;
+`;
+
+export { Text, HeadingText, ImageWrapper, Wrapper };

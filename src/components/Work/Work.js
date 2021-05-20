@@ -15,29 +15,22 @@ function Work() {
           <HeadingText> Work </HeadingText>
           {data.map((data) => (
             <Text>
-              <b>
-                <h3>{data.employer}</h3>
-              </b>
-              <h4>
-                {data.title}
-                <br />
-                <ul>
-                  <li>{data.jobDescription1}</li>
-                  <li>{data.jobDescription2}</li>
-                </ul>
-              </h4>
-              <h4>
-                {data.previousTitle}
-                <br />
-                <ul>
-                  <li>{data.previousJobDescription1}</li>
-                  <li>{data.previousJobDescription2}</li>
-                  <li>{data.previousJobDescription3}</li>
-                  <li>{data.previousJobDescription4}</li>
-                  <li>{data.previousJobDescription5}</li>
-                  <li>{data.previousJobDescription6}</li>
-                </ul>
-              </h4>
+              <b>{data.employer}</b> <br />
+              {data.title} <br />
+              <ul>
+                <li>{data.jobDescription1}</li>
+                <li>{data.jobDescription2}</li>
+              </ul>
+              {data.previousTitle}
+              <br />
+              <ul>
+                <li>{data.previousJobDescription1}</li>
+                <li>{data.previousJobDescription2}</li>
+                <li>{data.previousJobDescription3}</li>
+                <li>{data.previousJobDescription4}</li>
+                <li>{data.previousJobDescription5}</li>
+                <li>{data.previousJobDescription6}</li>
+              </ul>
             </Text>
           ))}
         </Col>
