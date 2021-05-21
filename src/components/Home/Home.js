@@ -5,7 +5,7 @@ import Typing from "react-typing-animation";
 import data from "../../data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Home(props) {
+function Home() {
   return (
     <InputWrapper>
       <HeaderText>

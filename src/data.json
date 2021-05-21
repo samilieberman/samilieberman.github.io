@@ -1,23 +1,46 @@
 [
   {
-    "name": "Sami Lieberman",
+    "name": "I am Sami Lieberman",
     "description": "I am a NYC based software developer. I love learning new technologies and solving problems.",
-    "college": "University of Florida, Herbert Wertheim College of Engineering",
-    "location": "Gainesville, Florida",
-    "degree":"B.S.E Computer Science Engineering with a Minor in Sales Engineering",
-    "graduationYear": "Class of 2019",
-    "employer": "American Express",
-    "title": "Engineer II",
-    "jobDescription1": "Recently promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
-    "jobDescription2": "Deployed applications to production environments by utilizing the CI/CD pipeline.",
-    "jobLocation": "New York, New York",
-    "jobTime": "November 2020 - Present",
-    "previousTitle": "Engineer III",
-    "previousJobDescription1": "Worked on features and bug fixes for International card applications in SpringBoot, Java, React, JS, and NodeJS.",
-    "previousJobDescription2": "Improved teams’ overall code quality by identifying areas of redundant code and suggesting cleaner, reusable alternatives.",
-    "previousJobDescription3": "Developed an extensive testing suite for my work, including various unit tests and automation scripts to ensure high code coverage and reliability using Selenium, Cucumber, ChromeDriver, and Jest.",
-    "previousJobDescription4": "Led project’s end-to-end by participating in solutioning, coordinating with dependent teams, developing the changes, and working with dependent teams on testing.",
-    "previousJobDescription5": "Acted as a key contributor to Agile ceremonies, team planning, and architectural solutioning meetings.",
-    "previousJobDescription6": "Mentored and onboarded new hires by leading tech bootcamps and hosting weekly one on ones."
+    "education": [
+      {
+        "college": "University of Florida, Herbert Wertheim College of Engineering",
+        "location": "Gainesville, Florida",
+        "degree": "B.S.E Computer Science Engineering with a Minor in Sales Engineering",
+        "graduationYear": "Class of 2019"
+      },
+      {
+        "college": "University of New South Wales",
+        "location": "Sydney, Australia",
+        "degree": "Study Abroad, Computer Science Engineering",
+        "graduationYear": "2018"
+      }
+    ],
+    "employment": [
+      {
+        "employer": "American Express",
+        "title": "Engineer II",
+        "jobDescription":[
+          "Recently promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
+          "Deployed applications to production environments by utilizing the CI/CD pipeline."
+        ],
+        "jobLocation": "New York, New York",
+        "jobTime": "November 2020 - Present"
+      },
+      {
+        "employer": "American Express",
+        "title": "Engineer III",
+        "jobDescription":[
+          "Worked on features and bug fixes for International card applications in SpringBoot, Java, React, JS, and NodeJS.",
+          "Improved teams’ overall code quality by identifying areas of redundant code and suggesting cleaner, reusable alternatives.",
+          "Developed an extensive testing suite for my work, including various unit tests and automation scripts to ensure high code coverage and reliability using Selenium, Cucumber, ChromeDriver, and Jest.",
+          "Led project’s end-to-end by participating in solutioning, coordinating with dependent teams, developing the changes, and working with dependent teams on testing.",
+          "Acted as a key contributor to Agile ceremonies, team planning, and architectural solutioning meetings.",
+          "Mentored and onboarded new hires by leading tech bootcamps and hosting weekly one on ones."
+        ],
+        "jobLocation": "New York, New York",
+        "jobTime": "January 2020 - November"
+      }
+    ]
   }
 ]

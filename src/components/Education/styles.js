@@ -4,6 +4,8 @@ import gator from '../../assets/gator.png'
 const Text = styled.h3`
   margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 24px;
+  padding-top: 10px;
 `;
 
 const HeadingText = styled.h1`

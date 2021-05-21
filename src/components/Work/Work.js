@@ -13,24 +13,16 @@ function Work() {
         </Col>
         <Col>
           <HeadingText> Work </HeadingText>
-          {data.map((data) => (
+          {data[0].employment.map((item) => (
             <Text>
-              <b>{data.employer}</b> <br />
-              {data.title} <br />
+              <b>{item.employer}</b> <br />
+              {item.title} <br />
               <ul>
-                <li>{data.jobDescription1}</li>
-                <li>{data.jobDescription2}</li>
+              {item.jobDescription.map((description) => (
+                <li>{description}</li>
+              ))}
               </ul>
-              {data.previousTitle}
               <br />
-              <ul>
-                <li>{data.previousJobDescription1}</li>
-                <li>{data.previousJobDescription2}</li>
-                <li>{data.previousJobDescription3}</li>
-                <li>{data.previousJobDescription4}</li>
-                <li>{data.previousJobDescription5}</li>
-                <li>{data.previousJobDescription6}</li>
-              </ul>
             </Text>
           ))}
         </Col>

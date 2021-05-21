@@ -13,13 +13,13 @@ function Education() {
         </Col>
         <Col>
           <HeadingText> Education </HeadingText>
-          {data.map((data, index) => (
+          {data[0].education.map((item) => (
             <Text>
-              {data.college}
+              {item.college}
               <br />
-              {data.degree}
+              {item.degree}
               <br />
-              {data.graduationYear}, {data.location}
+              {item.graduationYear}, {item.location}
             </Text>
           ))}
         </Col>
