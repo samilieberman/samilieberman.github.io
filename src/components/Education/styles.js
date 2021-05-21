@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 import gator from '../../assets/gator.png'
+import { Col } from 'react-bootstrap';
+
+const StyledCol = styled(Col)`
+  align-content: right;
+`;
 
 const Text = styled.h3`
   margin: 10px;
@@ -24,4 +29,4 @@ const Wrapper = styled.div`
   padding: 50px;
 `;
 
-export { Text, HeadingText, ImageWrapper, Wrapper };
+export { Text, HeadingText, ImageWrapper, Wrapper, StyledCol };

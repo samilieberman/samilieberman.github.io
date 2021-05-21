@@ -1,11 +1,15 @@
 import styled from 'styled-components'
-import retro from '../../assets/retro.gif'
+import retro from '../../assets/retro2.gif'
 
 const InputWrapper = styled.div`
     color: white;
     background-image: url(${retro});
-    background-repeat: no-repeat;
     background-size: 100%;
+    height: 25rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
 `;
 
 const HeaderText = styled.div`
@@ -14,5 +18,5 @@ const HeaderText = styled.div`
 `;
 
 export {
-    InputWrapper,HeaderText
+    InputWrapper, HeaderText
 }

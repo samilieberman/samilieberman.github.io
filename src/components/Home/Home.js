@@ -12,7 +12,7 @@ function Home() {
       {data.map((item) => (
         <div>
         <Typing speed={120}>
-          <h1>I am {item.name}.</h1>
+          <h1>I am {item.name}</h1>
         </Typing>
         <h4>{item.description}</h4>
         </div>

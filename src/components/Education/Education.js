@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, HeadingText, ImageWrapper, Wrapper } from "./styles";
-import { Col, Row } from "react-bootstrap";
+import { Text, HeadingText, ImageWrapper, Wrapper, StyledCol } from "./styles";
+import { Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
@@ -8,10 +8,10 @@ function Education() {
   return (
     <Wrapper>
       <Row>
-        <Col xs={2}>
+        <Col>
           <ImageWrapper />
         </Col>
-        <Col>
+        <StyledCol xs lg="10" >
           <HeadingText> Education </HeadingText>
           {data[0].education.map((item) => (
             <Text>
@@ -22,7 +22,7 @@ function Education() {
               {item.graduationYear}, {item.location}
             </Text>
           ))}
-        </Col>
+        </StyledCol>
       </Row>
     </Wrapper>
   );

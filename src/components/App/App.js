@@ -20,8 +20,11 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-      if(randomColor !== '#23954') setBackground(randomColor);
+      // var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+      var arr = ['#FAD74F','#F19344','#25279C','#492E5E','#F2846B'];
+      var randomColor = arr[Math.floor(Math.random() * arr.length)]
+      //if(randomColor !== '#23954') setBackground(randomColor);
+      setBackground(randomColor);
     }, 2000);
     return () => clearInterval(interval);
   }, []);
