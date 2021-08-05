@@ -1,15 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { HeadingText, ProjectsWrapper, Image, StyledCol } from "./styles";
+import { HeadingText, ProjectsWrapper, StyledCol } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
   return (
     <ProjectsWrapper>
       <Row>
-        <Col xs lg="2">
+        {/* <Col xs lg="2">
           <Image />
-        </Col>
+        </Col> */}
         <Col>
           <HeadingText> Projects </HeadingText>
           <Row>

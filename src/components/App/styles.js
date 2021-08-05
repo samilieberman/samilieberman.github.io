@@ -15,4 +15,8 @@ const Sticky = styled.div`
   z-index: 10;
 `;
 
-export { ButtonWrapper, Sticky };
+const Background = styled.div`
+  background-color: black;
+`;
+
+export { ButtonWrapper, Sticky, Background };

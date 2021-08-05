@@ -1,17 +1,15 @@
 import React, { Component } from "react";
-import { Nav, Navbar } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Nav } from "react-bootstrap";
+import { NavWrapper } from "./styles";
 import { BrowserRouter, Link as DownloadLink } from "react-router-dom";
 import resume from '../../assets/Resume.pdf';
+import "bootstrap/dist/css/bootstrap.min.css";
 class NavBar extends Component {
   render() {
     return (
-        <Navbar expand="lg">
+        <NavWrapper expand="lg" bg="dark" variant="dark">
             <Nav className="m-auto">
             <BrowserRouter>
-              <DownloadLink to="/" className="nav-link">
-                Home
-              </DownloadLink>
                 <DownloadLink
                   to={resume}
                   target="_blank"
@@ -21,7 +19,7 @@ class NavBar extends Component {
                 </DownloadLink>
               </BrowserRouter>
             </Nav>
-        </Navbar>
+        </NavWrapper>
     );
   }
 }

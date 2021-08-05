@@ -6,7 +6,7 @@ import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import { Button } from "react-bootstrap";
-import { ButtonWrapper } from "./styles";
+import { ButtonWrapper, Background } from "./styles";
 
 const WIP = styled.div`
   padding: 2rem;
@@ -20,17 +20,15 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
       var arr = ['#FAD74F','#F19344','#25279C','#492E5E','#F2846B'];
       var randomColor = arr[Math.floor(Math.random() * arr.length)]
-      //if(randomColor !== '#23954') setBackground(randomColor);
       setBackground(randomColor);
     }, 2000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <>
+    <Background>
       <WIP background={background}>
         <strong>
           <span role="img" aria-label="wip">
@@ -38,7 +36,7 @@ function App() {
           </span>
         </strong>
       </WIP>
-      <NavBar />
+      {/* <NavBar /> */}
       <Home />
       <Education />
       <Work />
@@ -48,7 +46,7 @@ function App() {
           ⇧
         </Button>
       </ButtonWrapper>
-    </>
+    </Background>
   );
 }
 

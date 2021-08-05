@@ -1,7 +1,7 @@
 [
   {
     "name": "Sami Lieberman",
-    "description": "I am a NYC based software developer. I love learning new technologies and solving problems.",
+    "description": "I am a New York City based software developer.",
     "education": [
       {
         "college": "University of Florida, Herbert Wertheim College of Engineering",
@@ -22,7 +22,15 @@
         "title": "Engineer II",
         "jobDescription":[
           "Recently promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
-          "Deployed applications to production environments by utilizing the CI/CD pipeline."
+          "Deployed applications to production environments by utilizing the CI/CD pipeline.",
+          "Worked as a key developer on high profile projects by participating in the end to end integration, which includes discovery, solutioning, grooming, development, testing, coordination with downstream teams, and releasing to production.",
+          "Become proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization and mocking tools to become well versed in the SDET model of development and testing.",
+          "Quickly solutioned, implemented, and deployed fixes to resolve bugs in production.",
+          "Led my team as interim Scrum Master through various tasks such as leading scrum ceremonies, collaborating with the Product Owner and Tech Lead, maintaining the team's Rally board, and working with the Release Train Engineer on ensuring we meet the project milestones.",
+          "Mentored and onboarded new hires and interns through coffee chats, leading tech trainings, and career development conversations.",
+          "Contributed to an open source project used by American Express and as a result, I was added to the Social Contribution Leaderboard.",
+          "Participated in Hackathons and innovation events.",
+          "Served as a panelist for promotions and led interviews for prospective candidates."
         ],
         "jobLocation": "New York, New York",
         "jobTime": "November 2020 - Present"

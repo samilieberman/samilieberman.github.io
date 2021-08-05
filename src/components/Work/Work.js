@@ -22,7 +22,6 @@ function Work() {
                 <li>{description}</li>
               ))}
               </ul>
-              <br />
             </Text>
           ))}
         </Col>

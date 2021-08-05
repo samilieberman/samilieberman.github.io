@@ -3,18 +3,21 @@ import projects from '../../assets/projects2.png'
 import { Col } from 'react-bootstrap'
 
 const HeadingText = styled.h1`
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   margin-top: 20px;
+  color: white;
 `;
 
 const Text = styled.h3`
   margin: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   `;
 
 const ProjectsWrapper = styled.div`
+  color: white;
+  background-color: black;
   padding-left:50px;
   padding-right:50px;
   padding-bottom:50px;
@@ -28,7 +31,7 @@ const Image = styled.div`
 `;
 
 const StyledCol = styled(Col)`
-  color: black;
+  color: white;
   padding: 1rem;
 `;
 
