@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Button } from "react-bootstrap";
 
 const ButtonWrapper = styled.div`
   display: flex;
@@ -16,8 +17,8 @@ const Sticky = styled.div`
 `;
 
 const Background = styled.div` 
-  background-color: ${props => props.theme === 'light' ? 'white' : 'black'}
-  color: ${props => props.theme === 'dark' ? 'black' : 'white'}   
+  background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
+  color: ${props => props.theme === 'light' ? 'black' : 'white'};
 `;
 
 const WIP = styled.div`
@@ -27,4 +28,19 @@ const WIP = styled.div`
   color: white;
 `;
 
-export { ButtonWrapper, Sticky, Background, WIP };
+const ThemeButton = styled(Button)`
+  background-color: transparent;
+  border-color: transparent;
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  &:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+  }
+`;
+
+export { ButtonWrapper, Sticky, Background, WIP, ThemeButton };

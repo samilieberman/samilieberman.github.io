@@ -4,7 +4,7 @@ import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import { Button } from "react-bootstrap";
-import { ButtonWrapper, Background, WIP } from "./styles";
+import { ButtonWrapper, Background, WIP, ThemeButton } from "./styles";
 
 function App() {
   const [background, setBackground] = useState("black");
@@ -26,13 +26,18 @@ function App() {
 
   return (
     <>
-      <Button onClick={themeToggler} variant="light">
-        {theme === 'light' ?
-          <span aria-label="light" role="img">🌞</span> :
-          <span aria-label="dark" role="img">🌜</span>
-        }
-      </Button>
       <Background theme={theme}>
+        <ThemeButton onClick={themeToggler} variant="light">
+          {theme === "light" ? (
+            <span aria-label="light" role="img">
+              🌞
+            </span>
+          ) : (
+            <span aria-label="dark" role="img">
+              🌜
+            </span>
+          )}
+        </ThemeButton>
         <WIP background={background}>
           <strong>
             <span role="img" aria-label="wip">
