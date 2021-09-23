@@ -21,11 +21,11 @@ const Image = styled.div`
 `;
 
 const WorkWrapper = styled.div`
-  color: white;
-  background-color: black;
   padding-left:50px;
   padding-right:50px;
   padding-bottom:50px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 `;
 
 export {

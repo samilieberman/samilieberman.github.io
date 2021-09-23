@@ -6,7 +6,6 @@ const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   margin-top: 20px;
-  color: white;
 `;
 
 const Text = styled.h3`
@@ -16,11 +15,11 @@ const Text = styled.h3`
   `;
 
 const ProjectsWrapper = styled.div`
-  color: white;
-  background-color: black;
   padding-left:50px;
   padding-right:50px;
   padding-bottom:50px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 `;
 
 const Image = styled.div`
@@ -31,7 +30,6 @@ const Image = styled.div`
 `;
 
 const StyledCol = styled(Col)`
-  color: white;
   padding: 1rem;
 `;
 

@@ -33,7 +33,8 @@
           "Served as a panelist for promotions and led interviews for prospective candidates."
         ],
         "jobLocation": "New York, New York",
-        "jobTime": "November 2020 - Present"
+        "jobTime": "November 2020 - Present",
+        "link": "http://www.americanexpress.com"
       },
       {
         "employer": "American Express",
@@ -47,7 +48,8 @@
           "Mentored and onboarded new hires by leading tech bootcamps and hosting weekly one on ones."
         ],
         "jobLocation": "New York, New York",
-        "jobTime": "January 2020 - November"
+        "jobTime": "January 2020 - November",
+        "link": "http://www.americanexpress.com"
       }
     ]
   }

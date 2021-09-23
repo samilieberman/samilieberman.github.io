@@ -15,8 +15,16 @@ const Sticky = styled.div`
   z-index: 10;
 `;
 
-const Background = styled.div`
-  background-color: black;
+const Background = styled.div` 
+  background-color: ${props => props.theme === 'light' ? 'white' : 'black'}
+  color: ${props => props.theme === 'dark' ? 'black' : 'white'}   
 `;
 
-export { ButtonWrapper, Sticky, Background };
+const WIP = styled.div`
+  padding: 2rem;
+  text-align: center;
+  background-color: ${(props) => props.background};
+  color: white;
+`;
+
+export { ButtonWrapper, Sticky, Background, WIP };

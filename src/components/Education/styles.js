@@ -25,10 +25,10 @@ const ImageWrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-const Wrapper = styled.div`
+const EducationWrapper = styled.div`
   padding: 50px;
-  background-color: black;
-  color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
 `;
 
-export { Text, HeadingText, ImageWrapper, Wrapper, StyledCol };
+export { Text, HeadingText, ImageWrapper, EducationWrapper, StyledCol };

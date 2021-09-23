@@ -1,18 +1,13 @@
 import React from "react";
 import Contact from "../Contact/Contact";
-import { InputWrapper, HeaderText, StyledTypist, StyledButton } from "./styles";
-import { BrowserRouter } from "react-router-dom";
+import { InputWrapper, HeaderText, StyledTypist } from "./styles";
 import data from "../../data.json";
-import resume from '../../assets/Resume.pdf';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   return (
     <>
     <InputWrapper>
-    {/* <BrowserRouter>
-      <StyledButton to={resume} target="_blank" download>Download</StyledButton>
-    </BrowserRouter> */}
       <HeaderText>
       {data.map((item) => (
         <div>
