@@ -17,7 +17,7 @@ const Text = styled.h3`
 const ProjectsWrapper = styled.div`
   padding-left:50px;
   padding-right:50px;
-  padding-bottom:50px;
+  padding-bottom:30px;
   margin-left: 5rem;
   margin-right: 5rem;
 `;

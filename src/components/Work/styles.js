@@ -23,7 +23,7 @@ const Image = styled.div`
 const WorkWrapper = styled.div`
   padding-left:50px;
   padding-right:50px;
-  padding-bottom:50px;
+  padding-bottom:30px;
   margin-left: 5rem;
   margin-right: 5rem;
 `;
