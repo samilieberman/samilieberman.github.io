@@ -4,7 +4,7 @@ import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import { Button } from "react-bootstrap";
-import { ButtonWrapper, Background, WIP, } from "./styles";
+import { ButtonWrapper, Background } from "./styles";
 
 function App() {
   const [background, setBackground] = useState("black");

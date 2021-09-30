@@ -21,18 +21,18 @@
         "employer": "American Express",
         "title": "Engineer II",
         "jobDescription":[
-          "Recently promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
+          "Promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
           "Deployed applications to production environments by utilizing the CI/CD pipeline.",
-          "Worked as a key developer on high profile projects by participating in the end to end integration, which includes discovery, solutioning, grooming, development, testing, coordination with downstream teams, and releasing to production.",
-          "Become proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization and mocking tools to become well versed in the SDET model of development and testing.",
-          "Quickly solutioned, implemented, and deployed fixes to resolve bugs in production.",
-          "Led my team as interim Scrum Master through various tasks such as leading scrum ceremonies, collaborating with the Product Owner and Tech Lead, maintaining the team's Rally board, and working with the Release Train Engineer on ensuring we meet the project milestones.",
-          "Mentored and onboarded new hires and interns through coffee chats, leading tech trainings, and career development conversations.",
-          "Contributed to an open source project used by American Express and as a result, I was added to the Social Contribution Leaderboard.",
-          "Participated in Hackathons and innovation events.",
-          "Served as a panelist for promotions and led interviews for prospective candidates."
+          "Act as a key developer on Enterprise-Wide high priority projects, leading end to end integration with dependent teams. Develop change methodology and secure cross discipline testing, validations, and release to production environments.",
+          "Proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization tools to become well versed in the SDET model of development and testing.",
+          "Quickly solution, implement, and deploy fixes to resolve bugs in production.",
+          "Acted as interim Scrum Master by leading ceremonies, collaborating with Product Owner and Tech Lead, maintaining the team Rally board, and working with Release Train Engineer to ensure project deadlines are met.",
+          "Mentor and onboard new hires and interns through coffee chats, presenting on various tech topics, and one on one career development conversations.",
+          "Contributed to an open source project used by American Express and presented on the topic to my organization.",
+          "Serve as a panelist for promotions, lead interviews for prospective candidates, and attend various college career fairs & hackathons to help recruit technology talent to American Express.",
+          "Improve Developer Experience by meeting with the team to pilot new hire bootcamps and highlight pain points in our engineering day to day."
         ],
-        "jobLocation": "New York, New York",
+        "jobLocation": "New York, NY",
         "jobTime": "November 2020 - Present",
         "link": "http://www.americanexpress.com"
       },
@@ -41,15 +41,54 @@
         "title": "Engineer III",
         "jobDescription":[
           "Worked on features and bug fixes for International card applications in SpringBoot, Java, React, JS, and NodeJS.",
+          "Participated in Hackathons and innovation events.",
           "Improved teams’ overall code quality by identifying areas of redundant code and suggesting cleaner, reusable alternatives.",
           "Developed an extensive testing suite for my work, including various unit tests and automation scripts to ensure high code coverage and reliability using Selenium, Cucumber, ChromeDriver, and Jest.",
-          "Led project’s end-to-end by participating in solutioning, coordinating with dependent teams, developing the changes, and working with dependent teams on testing.",
-          "Acted as a key contributor to Agile ceremonies, team planning, and architectural solutioning meetings.",
-          "Mentored and onboarded new hires by leading tech bootcamps and hosting weekly one on ones."
+          "Acted as a key contributor to Agile ceremonies, team planning, and architectural solutioning meetings."
         ],
-        "jobLocation": "New York, New York",
-        "jobTime": "January 2020 - November",
+        "jobLocation": "New York, NY",
+        "jobTime": "January 2020 - November 2020",
         "link": "http://www.americanexpress.com"
+      },
+      {
+        "employer": "American Express",
+        "title": "Software Engineering Intern",
+        "jobDescription":[
+          "Worked on an agile team responsible for International card applications.",
+          "Uplifted existing batch processes using Kafka, Spring Boot, and Drools for real-time data processing."
+        ],
+        "jobLocation": "New York, NY",
+        "jobTime": "June 2019 - August 2019",
+        "link": "http://www.americanexpress.com"
+      },
+      {
+        "employer": "American Express",
+        "title": "Software Engineering Intern",
+        "jobDescription":[
+          "Worked on an agile team responsible for new customer onboarding and loan applications.",
+          "Built a financial dashboard to consolidate and organize the department's financials.",
+          "Built a service response tool to automate the process of testing applications before live traffic."
+        ],
+        "jobLocation": "Sunrise, FL",
+        "jobTime": "June 2018 - August 2018",
+        "link": "http://www.americanexpress.com"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Study Buddy",
+        "url": "https://github.com/samilieberman/StudyBuddy",
+        "description": "React Native Android and iOS mobile application that facilitates finding ‘study buddies.’"
+      },
+      {
+        "name": "Hidden Gems",
+        "url": "https://github.com/samilieberman/hidden_gems",
+        "description": "Android mobile application that helped users locate ‘hidden gems’ in their vicinity by utilizing Firebase, Flutter, Dart, and Google Maps API."
+      },
+      {
+        "name": "Gamer Gator",
+        "url": "https://github.com/GamerGator4/GG4",
+        "description": "Led a team as Scrum Master in developing a web application to improve event planning for gamers using the MEAN Stack, NodeJS, PassportJS, UI-Calendar API, and Google Maps API."
       }
     ]
   }
