@@ -16,6 +16,10 @@ const Text = styled.h3`
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  font-size: 24px;
+  &:hover {
+    color:#499BFC;
+  }
 `;
 
 const ImageWrapper = styled.div`
@@ -26,7 +30,6 @@ const ImageWrapper = styled.div`
 `;
 
 const EducationWrapper = styled.div`
-  padding-top:30px;
   padding-left:50px;
   padding-right:50px;
   margin-left: 5rem;

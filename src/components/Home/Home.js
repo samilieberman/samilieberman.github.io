@@ -10,7 +10,7 @@ function Home({ theme, setTheme }) {
   };
   return (
     <HomeWrapper>
-      <ThemeButton onClick={themeToggler} variant="light">
+      <ThemeButton onClick={themeToggler} variant="light" size="lg">
         {theme === "light" ? (
           <span aria-label="light" role="img">
             🌞

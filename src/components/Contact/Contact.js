@@ -10,21 +10,24 @@ function Contact() {
       <SocialIcon
         url="https://www.linkedin.com/in/sami-lieberman-609059125/"
         target="_blank"
-        bgColor="white"
+        bgColor="#499BFC"
+        style={{ height: 60, width: 60 }}
       />
       </Col>
       <Col>
       <SocialIcon
         url="https://github.com/samilieberman"
         target="_blank"
-        bgColor="white"
+        bgColor="#499BFC"
+        style={{ height: 60, width: 60 }}
       />
       </Col>
       <Col>
       <SocialIcon
         url="mailto:samilieberman1@gmail.com"
         target="_blank"
-        bgColor="white"
+        bgColor="#499BFC"
+        style={{ height: 60, width: 60 }}
       />
       </Col>
     </Wrapper>

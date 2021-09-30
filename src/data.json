@@ -1,7 +1,7 @@
 [
   {
     "name": "Sami Lieberman",
-    "description": "I am a New York City based software developer.",
+    "description": "I am a NYC based full-stack software developer.",
     "education": [
       {
         "college": "University of Florida, Herbert Wertheim College of Engineering",
@@ -90,6 +90,8 @@
         "url": "https://github.com/GamerGator4/GG4",
         "description": "Led a team as Scrum Master in developing a web application to improve event planning for gamers using the MEAN Stack, NodeJS, PassportJS, UI-Calendar API, and Google Maps API."
       }
-    ]
+    ],
+    "skills": ["Java", "JS", "ReactJS", "styled components", "NodeJS", "HTML", "CSS", "Rest APIs", "Bootstrap", "Apache Kafka", "React Native", "Flutter", "Dart", "Firebase", "Angular", "SQL", "JEST", "Cucumber", "Selenium", "ChromeDriver", "Agile Project Management", "Git", "Technical Writing"]
+    
   }
 ]

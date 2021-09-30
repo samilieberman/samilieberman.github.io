@@ -3,6 +3,7 @@ import Home from "../Home/Home";
 import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 import { Button } from "react-bootstrap";
 import { ButtonWrapper, Background } from "./styles";
 
@@ -30,6 +31,7 @@ function App() {
       <Home theme={theme} setTheme={setTheme} />
       <Education />
       <Work />
+      <Skills />
       <Projects />
       <ButtonWrapper>
         <Button variant="dark" size="sm" onClick={() => window.scrollTo(0, 0)}>

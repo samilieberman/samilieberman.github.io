@@ -11,6 +11,10 @@ const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   margin-top: 20px;
+  font-size: 24px;
+  &:hover {
+    color:#499BFC;
+  }
 `;
 
 const Image = styled.div`
