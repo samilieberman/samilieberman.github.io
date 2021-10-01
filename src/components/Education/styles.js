@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import gator from '../../assets/gator.gif'
-import { Col } from 'react-bootstrap';
+import { Col, Container } from 'react-bootstrap';
 
 const StyledCol = styled(Col)`
   align-content: right;
@@ -18,7 +18,7 @@ const HeadingText = styled.h1`
   font-weight: bold;
   font-size: 24px;
   &:hover {
-    color:#499BFC;
+    color:#F4B400;
   }
 `;
 
@@ -29,7 +29,7 @@ const ImageWrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-const EducationWrapper = styled.div`
+const EducationWrapper = styled(Container)`
   padding-left:50px;
   padding-right:50px;
   margin-left: 5rem;

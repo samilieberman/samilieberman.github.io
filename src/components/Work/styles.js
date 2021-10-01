@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import amex from '../../assets/amex-logo.svg'
+import { Container } from 'react-bootstrap';
 
 const Text = styled.h3`
   margin: 10px;
@@ -13,7 +14,7 @@ const HeadingText = styled.h1`
   margin-top: 20px;
   font-size: 24px;
   &:hover {
-    color:#499BFC;
+    color:#F4B400;
   }
 `;
 
@@ -24,7 +25,7 @@ const Image = styled.div`
   background-repeat: no-repeat;
 `;
 
-const WorkWrapper = styled.div`
+const WorkWrapper = styled(Container)`
   padding-left:50px;
   padding-right:50px;
   margin-left: 5rem;

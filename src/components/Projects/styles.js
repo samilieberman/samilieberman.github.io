@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import projects from '../../assets/projects2.png'
-import { Col } from 'react-bootstrap'
+import { Col, Container } from 'react-bootstrap'
 
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
@@ -8,7 +8,7 @@ const HeadingText = styled.h1`
   margin-top: 20px;
   font-size: 24px;
   &:hover {
-    color:#499BFC;
+    color:#F4B400;
   }
 `;
 
@@ -18,7 +18,7 @@ const Text = styled.h3`
   font-size: 24px;
   `;
 
-const ProjectsWrapper = styled.div`
+const ProjectsWrapper = styled(Container)`
   padding-left:50px;
   padding-right:50px;
   padding-bottom:30px;

@@ -29,8 +29,12 @@ const WIP = styled.div`
 `;
 
 const ThemeButton = styled(Button)`
+  display: flex;
+  flex-direction: row;
   background-color: transparent;
   border-color: transparent;
+  position: sticky;
+  top: 0;
   &:hover {
     background-color: transparent;
     border-color: transparent;

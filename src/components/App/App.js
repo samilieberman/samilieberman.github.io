@@ -1,40 +1,41 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Home from "../Home/Home";
 import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 import { Button } from "react-bootstrap";
-import { ButtonWrapper, Background } from "./styles";
+import { ButtonWrapper, Background, ThemeButton } from "./styles";
 
 function App() {
-  const [background, setBackground] = useState("black");
-  useEffect(() => {
-    const interval = setInterval(() => {
-      var arr = ["#FAD74F", "#F19344", "#25279C", "#492E5E", "#F2846B"];
-      var randomColor = arr[Math.floor(Math.random() * arr.length)];
-      setBackground(randomColor);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
   const [theme, setTheme] = useState("light");
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
   return (
     <Background theme={theme}>
-      {/* <WIP background={background}>
-        <strong>
-          <span role="img" aria-label="wip">
-            🚧 Work In Progress 🚧
+      <ThemeButton onClick={themeToggler} variant="light" size="lg">
+        {theme === "light" ? (
+          <span aria-label="light" role="img">
+            🌞
           </span>
-        </strong>
-      </WIP> */}
-      {/* <NavBar /> */}
-      <Home theme={theme} setTheme={setTheme} />
+        ) : (
+          <span aria-label="dark" role="img">
+            🌜
+          </span>
+        )}
+      </ThemeButton>
+      <Home />
       <Education />
       <Work />
       <Skills />
       <Projects />
       <ButtonWrapper>
-        <Button variant="dark" size="sm" onClick={() => window.scrollTo(0, 0)}>
+        <Button
+          variant="dark"
+          size="sm"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           ⇧
         </Button>
       </ButtonWrapper>

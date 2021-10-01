@@ -1,16 +1,16 @@
 import styled from 'styled-components'
-import { Badge, Row } from "react-bootstrap";
+import { Badge, Container } from "react-bootstrap";
 
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 24px;
   &:hover {
-    color:#499BFC;
+    color:#F4B400;
   }
 `;
 
-const SkillsWrapper = styled.div`
+const SkillsWrapper = styled(Container)`
     padding-left:50px;
     padding-right:50px;
     margin-left: 5rem;
