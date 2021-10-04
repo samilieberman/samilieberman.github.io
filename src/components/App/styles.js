@@ -16,9 +16,11 @@ const Sticky = styled.div`
   z-index: 10;
 `;
 
-const Background = styled(Container)` 
+const Background = styled(Container)`
   background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
   color: ${props => props.theme === 'light' ? 'black' : 'white'};
+  padding-left: 5rem;
+  padding-right: 5rem;
 `;
 
 const WIP = styled.div`

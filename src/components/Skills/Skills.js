@@ -1,12 +1,12 @@
 import React from "react";
-import { Row } from "react-bootstrap";
-import { HeadingText, SkillsWrapper, SkillBadge } from "./styles";
+import { Container, Row } from "react-bootstrap";
+import { HeadingText, SkillBadge } from "./styles";
 import data from "../../data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Skills() {
   return (
-    <SkillsWrapper>
+    <>
       <Row>
         <HeadingText>Skills</HeadingText>
       </Row>
@@ -15,7 +15,7 @@ function Skills() {
           {skill}
         </SkillBadge>
       ))}
-    </SkillsWrapper>
+    </>
   );
 }
 export default Skills;

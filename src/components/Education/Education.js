@@ -1,12 +1,12 @@
 import React from "react";
-import { Text, HeadingText, EducationWrapper } from "./styles";
-import { Row } from "react-bootstrap";
+import { Text, HeadingText } from "./styles";
+import { Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
 function Education() {
   return (
-    <EducationWrapper>
+    <>
       <Row>
         <HeadingText> Education </HeadingText>
       </Row>
@@ -21,7 +21,7 @@ function Education() {
           </Text>
         </Row>
       ))}
-    </EducationWrapper>
+    </>
   );
 }
 export default Education;

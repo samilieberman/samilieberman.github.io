@@ -11,8 +11,6 @@ const HeadingText = styled.h1`
 `;
 
 const SkillsWrapper = styled(Container)`
-  padding-left: 1rem;
-  padding-right: 1rem;
 `;
 
 const SkillBadge = styled(Badge)`

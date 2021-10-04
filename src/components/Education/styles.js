@@ -2,12 +2,7 @@ import styled from 'styled-components'
 import gator from '../../assets/gator.gif'
 import { Col, Container } from 'react-bootstrap';
 
-const StyledCol = styled(Col)`
-  align-content: right;
-`;
-
 const Text = styled.h3`
-  margin: 10px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   padding-top: 10px;
@@ -30,8 +25,7 @@ const ImageWrapper = styled.div`
 `;
 
 const EducationWrapper = styled(Container)`
-  padding-left: 1rem;
-  padding-right: 1rem;
+
 `;
 
-export { Text, HeadingText, ImageWrapper, EducationWrapper, StyledCol };
+export { Text, HeadingText, ImageWrapper, EducationWrapper };

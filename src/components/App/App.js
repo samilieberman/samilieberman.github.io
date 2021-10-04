@@ -13,7 +13,7 @@ function App() {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
   return (
-    <Background theme={theme}>
+    <Background fluid theme={theme}>
       <ThemeButton onClick={themeToggler} variant="light" size="lg">
         {theme === "light" ? (
           <span aria-label="light" role="img">
