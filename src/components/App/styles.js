@@ -17,8 +17,6 @@ const Sticky = styled.div`
 `;
 
 const Background = styled(Container)`
-  background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
-  color: ${props => props.theme === 'light' ? 'black' : 'white'};
   padding-left: 5rem;
   padding-right: 5rem;
 `;
@@ -30,9 +28,13 @@ const WIP = styled.div`
   color: white;
 `;
 
+const AppWrapper = styled.div`
+  background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
+  color: ${props => props.theme === 'light' ? 'black' : 'white'};
+`;
+
 const ThemeButton = styled(Button)`
   display: flex;
-  flex-direction: row;
   background-color: transparent;
   border-color: transparent;
   position: sticky;
@@ -55,4 +57,4 @@ const ThemeButton = styled(Button)`
   }
 `;
 
-export { ButtonWrapper, Sticky, Background, WIP, ThemeButton };
+export { AppWrapper, ButtonWrapper, Sticky, Background, WIP, ThemeButton };

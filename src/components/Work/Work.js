@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import { Text, HeadingText } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";

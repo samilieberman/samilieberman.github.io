@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Col, Container } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
@@ -14,9 +14,6 @@ const HeadingText = styled.h1`
 const Text = styled.h3`
   font-family: 'Lato', sans-serif;
   font-size: 24px;
-  `;
-
-const ProjectsWrapper = styled(Container)`
 `;
 
 const StyledCol = styled(Col)`
@@ -24,5 +21,5 @@ const StyledCol = styled(Col)`
 `;
 
 export {
-    HeadingText, ProjectsWrapper, StyledCol, Text
+    HeadingText, StyledCol, Text
 }

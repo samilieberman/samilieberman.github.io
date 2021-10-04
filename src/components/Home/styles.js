@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import retro from '../../assets/retro2.gif'
 import Typist from 'react-typist';
 
 const InputWrapper = styled.div`
@@ -19,7 +18,6 @@ const StyledTypist = styled(Typist)`
 `
 
 const HomeWrapper = styled.div`
-    /* background-image: url(${retro}); */
     background-size: 100%;
     height: 20rem;
 `;
