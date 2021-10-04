@@ -15,6 +15,7 @@ const HeadingText = styled.h1`
 `;
 
 const EducationWrapper = styled.div`
+  margin-top: 10px;
 `;
 
 export { Text, HeadingText, EducationWrapper };

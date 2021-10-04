@@ -29,7 +29,7 @@ function App() {
         <Home />
         <Education />
         <Work />
-        <Skills />
+        <Skills theme={theme} />
         <Projects />
         <ButtonWrapper>
           <Button

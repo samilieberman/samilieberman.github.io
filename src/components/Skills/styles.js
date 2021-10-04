@@ -11,9 +11,14 @@ const HeadingText = styled.h1`
 `;
 
 const SkillBadge = styled(Badge)`
-    margin-right:.75rem;
+  margin-right:.75rem;
+  color: ${props => props.theme === 'light' ? 'white' : 'black'};
+`;
+
+const SkillsWrapper = styled.div`
+
 `;
 
 export {
-    HeadingText, SkillBadge
+    HeadingText, SkillBadge, SkillsWrapper
 }
