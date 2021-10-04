@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 const ButtonWrapper = styled.div`
   display: flex;
@@ -16,7 +16,7 @@ const Sticky = styled.div`
   z-index: 10;
 `;
 
-const Background = styled.div` 
+const Background = styled(Container)` 
   background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
   color: ${props => props.theme === 'light' ? 'black' : 'white'};
 `;
@@ -40,6 +40,12 @@ const ThemeButton = styled(Button)`
     border-color: transparent;
   }
   &:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+  }
+  &:active {
     background-color: transparent;
     border-color: transparent;
     outline: none;

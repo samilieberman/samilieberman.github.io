@@ -30,10 +30,8 @@ const ImageWrapper = styled.div`
 `;
 
 const EducationWrapper = styled(Container)`
-  padding-left:50px;
-  padding-right:50px;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 `;
 
 export { Text, HeadingText, ImageWrapper, EducationWrapper, StyledCol };

@@ -19,11 +19,9 @@ const Text = styled.h3`
   `;
 
 const ProjectsWrapper = styled(Container)`
-  padding-left:50px;
-  padding-right:50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom:30px;
-  margin-left: 5rem;
-  margin-right: 5rem;
 `;
 
 const Image = styled.div`
