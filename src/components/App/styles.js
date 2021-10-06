@@ -19,8 +19,8 @@ const Sticky = styled.div`
 const Background = styled(Container)`
   display: flex;
   flex-flow: column wrap;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 `;
 
 const WIP = styled.div`

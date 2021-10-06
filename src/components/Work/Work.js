@@ -1,12 +1,11 @@
 import React from "react";
-import { Row } from "react-bootstrap";
-import { Text, HeadingText } from "./styles";
+import { Text, HeadingText, WorkWrapper } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
 function Work() {
   return (
-    <Row>
+    <WorkWrapper>
       <HeadingText> Work </HeadingText>
       {data[0].employment.map((employer) => (
         <Text>
@@ -19,7 +18,7 @@ function Work() {
           </ul>
         </Text>
       ))}
-    </Row>
+    </WorkWrapper>
   );
 }
 export default Work;

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import amex from '../../assets/amex-logo.svg'
+import { Row } from "react-bootstrap";
 
 const Text = styled.h3`
   font-family: 'Lato', sans-serif;
@@ -9,7 +10,7 @@ const Text = styled.h3`
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-size: 24px;
   &:hover {
     color:#F4B400;
@@ -23,6 +24,11 @@ const Image = styled.div`
   background-repeat: no-repeat;
 `;
 
+const WorkWrapper = styled(Row)`
+  display: flex;
+  flex-direction: column;
+`
+
 export {
-    HeadingText, Text, Image
+    HeadingText, Text, Image, WorkWrapper
 }
