@@ -19,7 +19,6 @@ const StyledTypist = styled(Typist)`
 
 const HomeWrapper = styled.div`
     background-size: 100%;
-    height: 20rem;
     display: flex;
     flex-direction: column;
 `;
