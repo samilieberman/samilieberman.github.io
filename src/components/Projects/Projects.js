@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
   return (
-    <Row>
+    <>
       <HeadingText> Projects </HeadingText>
       <Row>
         {data[0].projects.map((item) => (
@@ -15,7 +15,7 @@ function Projects() {
           </StyledCol>
         ))}
       </Row>
-    </Row>
+    </>
   );
 }
 export default Projects;

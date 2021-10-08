@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import amex from '../../assets/amex-logo.svg'
-import { Row } from "react-bootstrap";
 
 const Text = styled.h3`
   font-family: 'Lato', sans-serif;
@@ -24,9 +23,8 @@ const Image = styled.div`
   background-repeat: no-repeat;
 `;
 
-const WorkWrapper = styled(Row)`
-  display: flex;
-  flex-direction: column;
+const WorkWrapper = styled.div`
+
 `
 
 export {
