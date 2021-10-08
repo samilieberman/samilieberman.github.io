@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Typist from 'react-typist';
 
-const InputWrapper = styled.div`
+const HomeWrapper = styled.div`
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -17,12 +17,6 @@ const StyledTypist = styled(Typist)`
     color: ${(props) => props.color};
 `
 
-const HomeWrapper = styled.div`
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-`;
-
 export {
-    InputWrapper, HeaderText, StyledTypist, HomeWrapper
+    HeaderText, StyledTypist, HomeWrapper
 }
