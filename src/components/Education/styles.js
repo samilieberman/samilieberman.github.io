@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Container } from "react-bootstrap";
 
 const Text = styled.h3`
   font-family: 'Lato', sans-serif;
@@ -14,8 +15,10 @@ const HeadingText = styled.h1`
   }
 `;
 
-const EducationWrapper = styled.div`
+const EducationWrapper = styled(Container)`
   margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
 `;
 
 export { Text, HeadingText, EducationWrapper };

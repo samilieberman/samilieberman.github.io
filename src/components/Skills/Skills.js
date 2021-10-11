@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Skills({theme}) {
   return (
-    <SkillsWrapper>
+    <SkillsWrapper fluid>
       <Row>
         <HeadingText>Skills</HeadingText>
       </Row>

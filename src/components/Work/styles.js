@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import amex from '../../assets/amex-logo.svg'
+import { Container } from "react-bootstrap";
 
 const Text = styled.h3`
   font-family: 'Lato', sans-serif;
@@ -23,8 +24,9 @@ const Image = styled.div`
   background-repeat: no-repeat;
 `;
 
-const WorkWrapper = styled.div`
-
+const WorkWrapper = styled(Container)`
+  align-items: center;
+  justify-content: center;
 `
 
 export {

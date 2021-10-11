@@ -1,13 +1,15 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import { HeadingText, StyledCol } from "./styles";
+import { HeadingText, StyledCol, ProjectsWrapper } from "./styles";
 import data from "../../data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
   return (
-    <>
-      <HeadingText> Projects </HeadingText>
+    <ProjectsWrapper fluid>
+      <Row>
+        <HeadingText> Projects </HeadingText>
+      </Row>
       <Row>
         {data[0].projects.map((item) => (
           <StyledCol>
@@ -15,7 +17,7 @@ function Projects() {
           </StyledCol>
         ))}
       </Row>
-    </>
+    </ProjectsWrapper>
   );
 }
 export default Projects;

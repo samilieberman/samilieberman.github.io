@@ -6,7 +6,7 @@ import data from "../../data.json";
 
 function Education() {
   return (
-    <EducationWrapper>
+    <EducationWrapper fluid>
       <Row>
         <HeadingText> Education </HeadingText>
       </Row>

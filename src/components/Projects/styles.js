@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Col } from 'react-bootstrap'
+import { Col, Container } from 'react-bootstrap'
 
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
@@ -15,6 +15,11 @@ const StyledCol = styled(Col)`
   padding: .625rem;
 `;
 
+const ProjectsWrapper = styled(Container)`
+  align-items: center;
+  justify-content: center;
+`;
+
 export {
-    HeadingText, StyledCol
+    HeadingText, StyledCol, ProjectsWrapper
 }

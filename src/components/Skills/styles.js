@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Badge } from "react-bootstrap";
+import { Badge, Container } from "react-bootstrap";
 
 const HeadingText = styled.h1`
   font-family: 'Lato', sans-serif;
@@ -15,8 +15,9 @@ const SkillBadge = styled(Badge)`
   color: ${props => props.theme === 'light' ? 'white' : 'black'};
 `;
 
-const SkillsWrapper = styled.div`
-
+const SkillsWrapper = styled(Container)`
+  align-items: center;
+  justify-content: center;
 `;
 
 export {

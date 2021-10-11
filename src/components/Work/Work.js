@@ -1,12 +1,12 @@
 import React from "react";
 import { Text, HeadingText, WorkWrapper } from "./styles";
 import { Row } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Work() {
   return (
-    <WorkWrapper>
+    <WorkWrapper fluid>
       <Row>
         <HeadingText> Work </HeadingText>
       </Row>
