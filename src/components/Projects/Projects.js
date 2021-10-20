@@ -13,7 +13,7 @@ function Projects() {
       <Row>
         {data[0].projects.map((item) => (
           <StyledCol>
-            <a href={item.url} target="_blank">{item.name}</a>: {item.description}
+            <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>: {item.description}
           </StyledCol>
         ))}
       </Row>

@@ -13,7 +13,7 @@ function Work() {
       {data[0].employment.map((employer) => (
         <Row>
           <Text>
-            <a href={employer.link} target="_blank">{employer.employer}</a> <br />
+            <a href={employer.link} target="_blank" rel="noopener noreferrer">{employer.employer}</a> <br />
             {employer.title} <br />
             <ul>
               {employer.jobDescription.map((description) => (
