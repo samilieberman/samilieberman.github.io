@@ -19,8 +19,10 @@ const Sticky = styled.div`
 const Background = styled(Container)`
   display: flex;
   flex-flow: column wrap;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  justify-content: center;
+  align-content: center;
 `;
 
 const WIP = styled.div`

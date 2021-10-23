@@ -13,6 +13,8 @@ const HeadingText = styled.h1`
 
 const StyledCol = styled(Col)`
   padding: .625rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
 `;
 
 const ProjectsWrapper = styled(Container)`
