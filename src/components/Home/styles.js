@@ -17,6 +17,12 @@ const StyledTypist = styled(Typist)`
     color: ${(props) => props.color};
 `
 
+const Headshot = styled.img`
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+`;
+
 export {
-    HeaderText, StyledTypist, HomeWrapper
+    HeaderText, StyledTypist, HomeWrapper, Headshot
 }

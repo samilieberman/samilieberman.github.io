@@ -19,10 +19,14 @@ const Sticky = styled.div`
 const Background = styled(Container)`
   display: flex;
   flex-flow: column wrap;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   justify-content: center;
   align-content: center;
+  @media (max-width: 768px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 `;
 
 const WIP = styled.div`
