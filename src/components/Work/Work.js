@@ -15,6 +15,7 @@ function Work() {
           <Text>
             <a href={employer.link} target="_blank" rel="noopener noreferrer">{employer.employer}</a> <br />
             {employer.title} <br />
+            <i> {employer.jobTime} </i> <br />
             <ul>
               {employer.jobDescription.map((description) => (
                 <li>{description}</li>

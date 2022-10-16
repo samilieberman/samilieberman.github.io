@@ -11,15 +11,15 @@ function Home() {
         {data.map((item) => (
           <div>
             <StyledTypist cursor={{ show: false }} avgTypingDelay={40}>
-              <h1>I am {item.name}.</h1>
+              <p>I am {item.name}.</p>
             </StyledTypist>
-            <StyledTypist.Delay ms={20000} />
+            <StyledTypist.Delay ms={30000} />
             <StyledTypist
               cursor={{ show: false }}
               avgTypingDelay={40}
               startDelay={2000}
             >
-              <h4>{item.description}</h4>
+              <h1>{item.description}</h1>
             </StyledTypist>
           </div>
         ))}

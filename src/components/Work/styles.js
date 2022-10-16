@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import amex from '../../assets/amex-logo.svg'
 import { Container } from "react-bootstrap";
 
 const Text = styled.h3`
@@ -7,21 +6,13 @@ const Text = styled.h3`
   font-size: 16px;
 `;
 
-const HeadingText = styled.h1`
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+const HeadingText = styled.div`
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
   margin-top: 1.25rem;
-  font-size: 24px;
   &:hover {
     color:#F4B400;
   }
-`;
-
-const Image = styled.div`
-  background-image: url(${amex});
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
 `;
 
 const WorkWrapper = styled(Container)`
@@ -30,5 +21,5 @@ const WorkWrapper = styled(Container)`
 `
 
 export {
-    HeadingText, Text, Image, WorkWrapper
+    HeadingText, Text, WorkWrapper
 }

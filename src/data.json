@@ -20,21 +20,38 @@
     "employment": [
       {
         "employer": "American Express",
-        "title": "Engineer II",
+        "title": "Engineer I",
         "jobDescription":[
-          "Promoted within a 10 month timeline for exceeding goals and outperforming in my previous role.",
-          "Deployed applications to production environments by utilizing the CI/CD pipeline.",
-          "Act as a key developer on Enterprise-Wide high priority projects, leading end to end integration with dependent teams. Develop change methodology and secure cross discipline testing, validations, and release to production environments.",
-          "Proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization tools to become well versed in the SDET model of development and testing.",
-          "Quickly resolve, implement, and deploy fixes to correct bugs in production.",
-          "Acted as interim Scrum Master by leading ceremonies, collaborating with Product Owner and Tech Lead, maintaining the team Rally board, and working with Release Train Engineer to ensure project deadlines are met.",
-          "Acted as a mentor to new hires and interns through coffee chats, onboarding tech talks, and 1:1 career development conversations.",
-          "Contributed to an open source project used by American Express and presented on it to my VP’s town hall.",
-          "Invited to sit on promotion panel for the CTO organization.",
-          "Key contributor to recruiting software engineering talent by leading interviews for prospective new hires and interns and attending college career fairs/hackathons."
+          "Lead scrum team in uplifting Australia Consumer card applications from an Angular to React front end. Collaborate with product, design, external teams, and stakeholders to ensure a successful migration.",
+          "Designed architecture flow for new features, participated in code reviews for my teammates, and improved technical documentation.",
+          "Coordinated Node 16 migration from discovery to release for all teams under my VP’s organization.",
+          "Pioneered Open Source contributions for my organization by hosting Open Source days and presenting on it in my VP’s town hall. As a result, 20+ people have contributed putting my VP in first place across the company.",
+          "Provided technical mentorship to 9 summer interns on my team as their project lead.",
+          "Introduced AmexMock, a virtualization tool, to my organization to improve our testing abilities.",
+          "Invited to participate in the Grace Hopper Conference for the past 2 years.",
+          "Participating in the Harvard Leadership Edge program in Developing Your Personal Presence."
         ],
         "jobLocation": "New York, NY",
-        "jobTime": "November 2020 - Present",
+        "jobTime": "February 2022 - Present",
+        "link": "http://www.americanexpress.com"
+      },
+      {
+        "employer": "American Express",
+        "title": "Engineer II",
+        "jobDescription":[
+          "Act as a key developer on Enterprise-Wide high priority projects, leading end to end integration with dependent teams, development, testing, validations, and the release to production environments.",
+          "Proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization tools to become well versed in the SDET model of development and testing.",
+          "Collaborated with DevOps and SRE to remediate bugs in production by quickly identifying the root cause, developing the fix, and deploying it to production.",
+          "Acted as interim Scrum Master by leading ceremonies, collaborating with Product Owner and Tech Lead, maintaining the team Rally board, and working with Release Train Engineer to ensure project deadlines are met.",
+          "Act as a mentor to new hires and interns through onboarding, tech trainings, and 1:1 career conversations.",
+          "Quickly resolve, implement, and deploy bug fixes in production by coordinating with DevOps and SRE.",
+          "Contributed to an open source project used by American Express and presented on it to my VP’s town hall.",
+          "Key contributor to recruiting software engineering talent by leading interviews for prospective new hires and interns and attending college career fairs/hackathons.",
+          "Invited to sit on promotion panel for the CTO organization and participated in over 10 panels so far.",
+          "Volunteer at under-resourced schools through Code Nation by teaching ReactJS and mentoring students."
+        ],
+        "jobLocation": "New York, NY",
+        "jobTime": "November 2020 - February 2022",
         "link": "http://www.americanexpress.com"
       },
       {
@@ -92,7 +109,7 @@
         "description": "Led a team as Scrum Master in developing a web application to improve event planning for gamers using the MEAN Stack, NodeJS, PassportJS, UI-Calendar API, and Google Maps API."
       }
     ],
-    "skills": ["Java", "JS", "ReactJS", "styled components", "NodeJS", "HTML", "CSS", "Rest APIs", "Bootstrap", "Apache Kafka", "React Native", "Flutter", "Dart", "Firebase", "Angular", "SQL", "JEST", "Cucumber", "Selenium", "ChromeDriver", "Agile Project Management", "Git", "Technical Writing"]
+    "skills": ["Javascript", "ReactJS", "NodeJS", "HTML", "CSS", "Rest APIs", "Redux", "Styled Componens", "Storybook", "Bootstrap", "Java", "React Native", "Flutter", "Dart", "Firebase", "Angular", "SQL", "JEST", "Cucumber", "Selenium", "ChromeDriver", "Agile Project Management", "Git", "Technical Writing"]
     
   }
 ]

@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 import { Col, Container } from 'react-bootstrap'
 
-const HeadingText = styled.h1`
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+const HeadingText = styled.div`
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
   margin-top: 1.25rem;
-  font-size: 24px;
   &:hover {
     color:#F4B400;
   }

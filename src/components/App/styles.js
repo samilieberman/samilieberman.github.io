@@ -39,6 +39,7 @@ const WIP = styled.div`
 const AppWrapper = styled.div`
   background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
   color: ${props => props.theme === 'light' ? 'black' : 'white'};
+  overflow-x: hidden;
 `;
 
 const ThemeButton = styled(Button)`
@@ -54,13 +55,13 @@ const ThemeButton = styled(Button)`
   &:focus {
     background-color: transparent;
     border-color: transparent;
-    outline: none;
+    outline: none !important;
     box-shadow: none;
   }
   &:active {
     background-color: transparent;
     border-color: transparent;
-    outline: none;
+    outline: none !important;
     box-shadow: none;
   }
 `;

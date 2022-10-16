@@ -12,9 +12,12 @@ function App() {
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }  
   return (
     <AppWrapper theme={theme}>
-      <ThemeButton onClick={themeToggler} variant="light" size="lg">
+      <ThemeButton onClick={themeToggler} variant="light" size="lg" shadow="none">
         {theme === "light" ? (
           <span aria-label="light" role="img">
             🌞
