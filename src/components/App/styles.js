@@ -19,8 +19,8 @@ const Sticky = styled.div`
 const Background = styled(Container)`
   display: flex;
   flex-flow: column wrap;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
   justify-content: center;
   align-content: center;
   @media (max-width: 768px) {
@@ -43,11 +43,8 @@ const AppWrapper = styled.div`
 `;
 
 const ThemeButton = styled(Button)`
-  display: flex;
   background-color: transparent;
   border-color: transparent;
-  position: sticky;
-  top: 0;
   &:hover {
     background-color: transparent;
     border-color: transparent;

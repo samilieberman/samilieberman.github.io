@@ -1,7 +1,7 @@
 [
   {
-    "name": "Sami Lieberman",
-    "description": "I am a NYC based full-stack software developer.",
+    "name": "sami lieberman",
+    "description": "i am a NYC based full-stack software developer.",
     "education": [
       {
         "college": "University of Florida, Herbert Wertheim College of Engineering",
@@ -19,6 +19,15 @@
     ],
     "employment": [
       {
+        "employer": "Resy",
+        "title": "Senior Software Engineer II",
+        "jobDescription":[
+        ],
+        "jobLocation": "New York, NY",
+        "jobTime": "January 2023 - Present",
+        "link": "https://resy.com"
+      },
+      {
         "employer": "American Express",
         "title": "Engineer I",
         "jobDescription":[
@@ -32,11 +41,10 @@
           "Participating in the Harvard Leadership Edge program in Developing Your Personal Presence."
         ],
         "jobLocation": "New York, NY",
-        "jobTime": "February 2022 - Present",
+        "jobTime": "February 2022 - December 2022",
         "link": "http://www.americanexpress.com"
       },
       {
-        "employer": "American Express",
         "title": "Engineer II",
         "jobDescription":[
           "Act as a key developer on Enterprise-Wide high priority projects, leading end to end integration with dependent teams, development, testing, validations, and the release to production environments.",
@@ -55,7 +63,6 @@
         "link": "http://www.americanexpress.com"
       },
       {
-        "employer": "American Express",
         "title": "Engineer III",
         "jobDescription":[
           "Worked on features and bug fixes for International card applications in SpringBoot, Java, React, JS, and NodeJS.",
@@ -69,7 +76,6 @@
         "link": "http://www.americanexpress.com"
       },
       {
-        "employer": "American Express",
         "title": "Software Engineering Intern",
         "jobDescription":[
           "Worked on an agile team responsible for International card applications.",
@@ -80,7 +86,6 @@
         "link": "http://www.americanexpress.com"
       },
       {
-        "employer": "American Express",
         "title": "Software Engineering Intern",
         "jobDescription":[
           "Worked on an agile team responsible for new customer onboarding and loan applications.",
