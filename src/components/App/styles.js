@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const ButtonWrapper = styled.div`
   display: flex;
@@ -42,20 +42,13 @@ const AppWrapper = styled.div`
   overflow-x: hidden;
 `;
 
-const ThemeButton = styled(Button)`
+const ThemeButton = styled.button`
+  font-size: 24px;
   background-color: transparent;
   border-color: transparent;
-  &:hover {
-    background-color: transparent;
-    border-color: transparent;
-  }
-  &:focus {
-    background-color: transparent;
-    border-color: transparent;
-    outline: none !important;
-    box-shadow: none;
-  }
-  &:active {
+  &:hover,
+  &:focus, 
+  &active {
     background-color: transparent;
     border-color: transparent;
     outline: none !important;

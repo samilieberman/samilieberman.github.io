@@ -10,11 +10,11 @@ const HomeWrapper = styled.div`
 const HeaderText = styled.div`
     text-align: center;
     margin: 3rem;
-    // font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 4.5rem;
     background-image: linear-gradient(
         -225deg,
-        #faf92f 0%,
+        #3b7cf2 0%,
         #8c8c8c 29%,
         #00d4ff 67%,
         #fff800 100%
