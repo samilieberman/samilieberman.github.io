@@ -14,7 +14,7 @@ const HeaderText = styled.div`
     font-size: 4.5rem;
     background-image: linear-gradient(
         -225deg,
-        #3b7cf2 0%,
+        #3a7cf0 0%,
         #8c8c8c 29%,
         #00d4ff 67%,
         #fff800 100%
