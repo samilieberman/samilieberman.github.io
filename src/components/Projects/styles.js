@@ -16,11 +16,15 @@ const StyledCol = styled(Col)`
   font-size: 16px;
 `;
 
+const StyledRow = styled.div`
+  margin-bottom: 10px;
+`
+
 const ProjectsWrapper = styled(Container)`
   align-items: center;
   justify-content: center;
 `;
 
 export {
-    HeadingText, StyledCol, ProjectsWrapper
+  HeadingText, StyledCol, ProjectsWrapper, StyledRow
 }
