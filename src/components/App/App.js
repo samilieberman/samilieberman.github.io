@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Home from "../Home/Home";
 import Education from "../Education/Education";
 import Work from "../Work/Work";
@@ -14,7 +14,22 @@ function App() {
   };
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
-  }  
+  }
+
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
+  const isMobile = width <= 768;
+
   return (
     <AppWrapper theme={theme}>
       <ThemeButton onClick={themeToggler} variant="light" size="lg" shadow="none">
@@ -33,7 +48,7 @@ function App() {
         <Education />
         <Work />
         <Skills theme={theme} />
-        <Projects />
+        <Projects isMobile={isMobile} />
         <ButtonWrapper>
           <Button
             variant="dark"
