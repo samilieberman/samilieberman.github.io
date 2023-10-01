@@ -2,12 +2,12 @@ import styled from 'styled-components'
 import { Container } from "react-bootstrap";
 
 const Text = styled.h3`
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
 `;
 
 const HeadingText = styled.div`
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   margin-top: 1.25rem;
   &:hover {

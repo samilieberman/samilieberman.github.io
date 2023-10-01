@@ -17,7 +17,7 @@ function Work() {
             {employer.title} <br />
             <i> {employer.jobTime} </i> <br />
             <ul>
-              {employer.jobDescription.map((description) => (
+              {employer.jobDescription && employer.jobDescription.map((description) => (
                 <li>{description}</li>
               ))}
             </ul>

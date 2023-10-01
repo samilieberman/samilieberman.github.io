@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Col, Container } from 'react-bootstrap'
 
 const HeadingText = styled.div`
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   margin-top: 1.25rem;
   &:hover {
@@ -12,8 +12,8 @@ const HeadingText = styled.div`
 
 const StyledCol = styled(Col)`
   padding: .625rem;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
 `;
 
 const StyledRow = styled.div`
