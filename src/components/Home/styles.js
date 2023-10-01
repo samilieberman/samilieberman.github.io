@@ -1,46 +1,54 @@
 import styled from 'styled-components'
 import Typist from 'react-typist';
+import Contact from '../Contact/Contact';
 
 const HomeWrapper = styled.div`
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
 `;
 
 const HeaderText = styled.div`
+    align-items: center;
+    display: flex;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 40px;
+    height: 65vh;
+    justify-content: center;
+    margin: 4rem;
     text-align: center;
-    margin: 3rem;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 4.5rem;
-    background-image: linear-gradient(
-        -225deg,
-        #3a7cf0 0%,
-        #8c8c8c 29%,
-        #00d4ff 67%,
-        #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear;
-    display: inline-block;
-    
-    @keyframes textclip {
-      to {
-        background-position: 200% center;
-      }
-    }
+
+    @media only screen and (min-width: 400px) {
+        font-size: 50px;
+    }  
+
+    @media only screen and (min-width: 600px) {
+        font-size: 65px;
+    }  
+`;
+
+const DescriptionText = styled.div`
+    font-size: 25px;
+
+    @media only screen and (min-width: 400px) {
+        font-size: 35px;
+    }  
+
+    @media only screen and (min-width: 600px) {
+        font-size: 40px;
+    }  
 `;
 
 const StyledTypist = styled(Typist)`
     color: ${(props) => props.color};
 `
 
+const Icons = styled(Contact)`
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+`
+
 export {
-    HeaderText, StyledTypist, HomeWrapper
+    DescriptionText, HeaderText, StyledTypist, HomeWrapper, Icons
 }

@@ -1,6 +1,5 @@
 import React from "react";
-import Contact from "../Contact/Contact";
-import { HeaderText, StyledTypist, HomeWrapper } from "./styles";
+import { DescriptionText, HeaderText, HomeWrapper, Icons, StyledTypist } from "./styles";
 import data from "../../data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
@@ -15,10 +14,10 @@ function Home() {
   return (
     <HomeWrapper>
       <HeaderText>
-        {data.map((item) => (
+        {data.map((me) => (
           <div>
             <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}> 
-              <p>i am {item.name}.</p>
+              <p>Hi, <StyledTypist.Delay ms={300} /> my name is {me.name}.</p>
             </StyledTypist>
             <StyledTypist.Delay ms={30000} />
             {renderMsg &&
@@ -27,13 +26,13 @@ function Home() {
               avgTypingDelay={40}
               startDelay={2000}
             >
-              <h1>{item.description}</h1>
+              <DescriptionText>{me.description}</DescriptionText>
             </StyledTypist>
             }
           </div>
         ))}
       </HeaderText>
-      <Contact />
+      <Icons />
     </HomeWrapper>
   );
 }
