@@ -19,14 +19,12 @@ const Sticky = styled.div`
 const Background = styled(Container)`
   display: flex;
   flex-flow: column wrap;
-  padding-left: 18rem;
-  padding-right: 18rem;
   justify-content: center;
   align-content: center;
-  @media (max-width: 768px) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+  @media only screen and (min-width: 1024px) {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }  
 `;
 
 const WIP = styled.div`
@@ -37,7 +35,7 @@ const WIP = styled.div`
 `;
 
 const AppWrapper = styled.div`
-  background-color: ${props => props.theme === 'light' ? 'white' : 'black'};
+  background-color: ${props => props.theme === 'light' ? '#f0efe1' : 'black'};
   color: ${props => props.theme === 'light' ? 'black' : 'white'};
   overflow-x: hidden;
 `;

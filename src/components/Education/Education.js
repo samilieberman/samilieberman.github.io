@@ -8,7 +8,7 @@ function Education() {
   return (
     <EducationWrapper fluid>
       <Row>
-        <HeadingText> EDUCATION </HeadingText>
+        <HeadingText> Education </HeadingText>
       </Row>
       {data[0].education.map((item) => (
         <Row>

@@ -1,7 +1,7 @@
 [
   {
-    "name": "sami lieberman",
-    "description": "i am a NYC based full-stack software developer.",
+    "name": "Sami Lieberman",
+    "description": "I am a NYC based full-stack software developer.",
     "education": [
       {
         "college": "University of Florida, Herbert Wertheim College of Engineering",
@@ -21,8 +21,6 @@
       {
         "employer": "Resy",
         "title": "Senior Software Engineer II",
-        "jobDescription":[
-        ],
         "jobLocation": "New York, NY",
         "jobTime": "January 2023 - Present",
         "link": "https://resy.com"
@@ -30,68 +28,30 @@
       {
         "employer": "American Express",
         "title": "Engineer I",
-        "jobDescription":[
-          "Lead scrum team in uplifting Australia Consumer card applications from an Angular to React front end. Collaborate with product, design, external teams, and stakeholders to ensure a successful migration.",
-          "Designed architecture flow for new features, participated in code reviews for my teammates, and improved technical documentation.",
-          "Coordinated Node 16 migration from discovery to release for all teams under my VP’s organization.",
-          "Pioneered Open Source contributions for my organization by hosting Open Source days and presenting on it in my VP’s town hall. As a result, 20+ people have contributed putting my VP in first place across the company.",
-          "Provided technical mentorship to 9 summer interns on my team as their project lead.",
-          "Introduced AmexMock, a virtualization tool, to my organization to improve our testing abilities.",
-          "Invited to participate in the Grace Hopper Conference for the past 2 years.",
-          "Participating in the Harvard Leadership Edge program in Developing Your Personal Presence."
-        ],
         "jobLocation": "New York, NY",
         "jobTime": "February 2022 - December 2022",
         "link": "http://www.americanexpress.com"
       },
       {
         "title": "Engineer II",
-        "jobDescription":[
-          "Act as a key developer on Enterprise-Wide high priority projects, leading end to end integration with dependent teams, development, testing, validations, and the release to production environments.",
-          "Proficient in QA responsibilities such as automation testing, regression testing, batch testing, unit testing, and virtualization tools to become well versed in the SDET model of development and testing.",
-          "Collaborated with DevOps and SRE to remediate bugs in production by quickly identifying the root cause, developing the fix, and deploying it to production.",
-          "Acted as interim Scrum Master by leading ceremonies, collaborating with Product Owner and Tech Lead, maintaining the team Rally board, and working with Release Train Engineer to ensure project deadlines are met.",
-          "Act as a mentor to new hires and interns through onboarding, tech trainings, and 1:1 career conversations.",
-          "Quickly resolve, implement, and deploy bug fixes in production by coordinating with DevOps and SRE.",
-          "Contributed to an open source project used by American Express and presented on it to my VP’s town hall.",
-          "Key contributor to recruiting software engineering talent by leading interviews for prospective new hires and interns and attending college career fairs/hackathons.",
-          "Invited to sit on promotion panel for the CTO organization and participated in over 10 panels so far.",
-          "Volunteer at under-resourced schools through Code Nation by teaching ReactJS and mentoring students."
-        ],
         "jobLocation": "New York, NY",
         "jobTime": "November 2020 - February 2022",
         "link": "http://www.americanexpress.com"
       },
       {
         "title": "Engineer III",
-        "jobDescription":[
-          "Worked on features and bug fixes for International card applications in SpringBoot, Java, React, JS, and NodeJS.",
-          "Improved teams’ overall code quality by identifying areas of redundant code and suggesting cleaner, reusable alternatives.",
-          "Developed an extensive testing suite for my work, including various unit tests and automation scripts to ensure high code coverage and reliability using Selenium, Cucumber, ChromeDriver, and Jest.",
-          "Acted as a key contributor to Agile ceremonies, team planning, and architectural solutioning meetings.",
-          "Participated in Hackathons and innovation events."
-        ],
         "jobLocation": "New York, NY",
         "jobTime": "January 2020 - November 2020",
         "link": "http://www.americanexpress.com"
       },
       {
         "title": "Software Engineering Intern",
-        "jobDescription":[
-          "Worked on an agile team responsible for International card applications.",
-          "Uplifted existing batch processes using Kafka, Spring Boot, and Drools for real-time data processing."
-        ],
         "jobLocation": "New York, NY",
         "jobTime": "June 2019 - August 2019",
         "link": "http://www.americanexpress.com"
       },
       {
         "title": "Software Engineering Intern",
-        "jobDescription":[
-          "Worked on an agile team responsible for new customer onboarding and loan applications.",
-          "Built a financial dashboard to consolidate and organize the department's financials.",
-          "Built a service response tool to automate the process of testing applications before live traffic."
-        ],
         "jobLocation": "Sunrise, FL",
         "jobTime": "June 2018 - August 2018",
         "link": "http://www.americanexpress.com"
@@ -114,7 +74,6 @@
         "description": "Led a team as Scrum Master in developing a web application to improve event planning for gamers using the MEAN Stack, NodeJS, PassportJS, UI-Calendar API, and Google Maps API."
       }
     ],
-    "skills": ["Javascript", "ReactJS", "NodeJS", "HTML", "CSS", "Rest APIs", "Redux", "Styled Componens", "Storybook", "Bootstrap", "Java", "React Native", "Flutter", "Dart", "Firebase", "Angular", "SQL", "JEST", "Cucumber", "Selenium", "ChromeDriver", "Agile Project Management", "Git", "Technical Writing"]
-    
+    "skills": ["Javascript", "ReactJS", "NodeJS", "HTML", "CSS", "Rest APIs", "Redux", "Styled Components", "Storybook", "Bootstrap", "Java", "React Native", "Flutter", "Dart", "Firebase", "Angular", "SQL", "JEST", "Cucumber", "Selenium", "ChromeDriver", "Agile Project Management", "Git", "Technical Writing"] 
   }
 ]
