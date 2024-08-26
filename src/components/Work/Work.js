@@ -10,8 +10,8 @@ function Work() {
       <Row>
         <HeadingText> Work </HeadingText>
       </Row>
-      {data[0].employment.map((employer) => (
-        <Row>
+      {data[0].employment.map((employer, idx) => (
+        <Row key={idx}>
           <Text>
             <a href={employer.link} target="_blank" rel="noopener noreferrer">{employer.employer}</a> <br />
             {employer.title} <br />

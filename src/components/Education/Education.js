@@ -1,17 +1,17 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { EducationWrapper, Text, HeadingText } from "./styles";
 import { Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "../../data.json";
 
-function Education() {
+const Education = forwardRef((_, ref) => {
   return (
     <EducationWrapper fluid>
-      <Row>
+      <Row ref={ref}>
         <HeadingText> Education </HeadingText>
       </Row>
-      {data[0].education.map((item) => (
-        <Row>
+      {data[0].education.map((item, idx) => (
+        <Row key={idx}>
           <Text>
             {item.college}
             <br />
@@ -23,5 +23,6 @@ function Education() {
       ))}
     </EducationWrapper>
   );
-}
+});
+
 export default Education;

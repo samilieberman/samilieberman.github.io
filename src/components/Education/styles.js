@@ -18,6 +18,10 @@ const EducationWrapper = styled(Container)`
   margin-top: 4rem;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (min-width: 400px) {
+    margin-top: 5rem;
+}  
 `;
 
 export { Text, HeadingText, EducationWrapper };

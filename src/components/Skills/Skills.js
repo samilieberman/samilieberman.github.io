@@ -10,8 +10,8 @@ function Skills({theme}) {
       <Row>
         <HeadingText>Skills</HeadingText>
       </Row>
-      {data[0].skills.map((skill) => (
-        <SkillBadge pill variant="primary" theme={theme}>
+      {data[0].skills.map((skill, idx) => (
+        <SkillBadge key={idx} pill variant="primary" theme={theme}>
           {skill}
         </SkillBadge>
       ))}

@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Home from "../Home/Home";
 import Education from "../Education/Education";
 import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
-import { Button } from "react-bootstrap";
-import { AppWrapper, ButtonWrapper, Background, ThemeButton } from "./styles";
+import { AppWrapper, Background, DownButton, ThemeButton, UpBotton } from "./styles";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -28,6 +27,9 @@ function App() {
     }
   }, []);
 
+  const contentRef = useRef(null)
+  const executeScroll = () => contentRef.current.scrollIntoView({ behavior: 'smooth' });
+
   const isMobile = width <= 768;
 
   return (
@@ -45,19 +47,18 @@ function App() {
       </ThemeButton>
       <Background fluid>
         <Home />
-        <Education />
+        <DownButton
+          onClick={executeScroll}
+        >
+          🔽
+        </DownButton>
+        <Education ref={contentRef} />
         <Work />
         <Skills theme={theme} />
         <Projects isMobile={isMobile} />
-        <ButtonWrapper>
-          <Button
-            variant="dark"
-            size="sm"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          >
-            ⇧
-          </Button>
-        </ButtonWrapper>
+        <UpBotton onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          🔼
+        </UpBotton>
       </Background>
     </AppWrapper>
   );
