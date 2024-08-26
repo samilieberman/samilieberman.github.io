@@ -1,19 +1,10 @@
 import styled from 'styled-components'
 import { Container } from "react-bootstrap";
 
-const ButtonWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1rem;
-`;
-
-const Sticky = styled.div`
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
+const AppWrapper = styled.div`
+  background-color: ${props => props.theme === 'light' ? '#f0efe1' : 'black'};
+  color: ${props => props.theme === 'light' ? 'black' : 'white'};
+  overflow-x: hidden;
 `;
 
 const Background = styled(Container)`
@@ -27,17 +18,20 @@ const Background = styled(Container)`
   }  
 `;
 
-const WIP = styled.div`
-  padding: 2rem;
-  text-align: center;
-  background-color: ${(props) => props.background};
-  color: white;
+const DownButton = styled.button`
+  align-self: center;
+  background: transparent;
+  border: none; 
+  display: flex;
+  margin-top: 10px;
 `;
 
-const AppWrapper = styled.div`
-  background-color: ${props => props.theme === 'light' ? '#f0efe1' : 'black'};
-  color: ${props => props.theme === 'light' ? 'black' : 'white'};
-  overflow-x: hidden;
+const Sticky = styled.div`
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 `;
 
 const ThemeButton = styled.button`
@@ -54,4 +48,19 @@ const ThemeButton = styled.button`
   }
 `;
 
-export { AppWrapper, ButtonWrapper, Sticky, Background, WIP, ThemeButton };
+const UpBotton = styled.button`
+  align-self: center;
+  background: transparent;
+  border: none; 
+  display: flex;
+  margin-bottom: 10px;
+`;
+
+const WIP = styled.div`
+  padding: 2rem;
+  text-align: center;
+  background-color: ${(props) => props.background};
+  color: white;
+`;
+
+export { AppWrapper, Background, DownButton, Sticky, ThemeButton, UpBotton, WIP };

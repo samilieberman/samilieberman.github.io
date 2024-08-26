@@ -14,8 +14,8 @@ function Home() {
   return (
     <HomeWrapper>
       <HeaderText>
-        {data.map((me) => (
-          <div>
+        {data.map((me, idx) => (
+          <div key={idx}>
             <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}> 
               <p>Hi, <StyledTypist.Delay ms={300} /> my name is {me.name}.</p>
             </StyledTypist>

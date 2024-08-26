@@ -15,7 +15,7 @@ const HeaderText = styled.div`
     font-size: 40px;
     height: 65vh;
     justify-content: center;
-    margin: 4rem;
+    margin: 50px;
     text-align: center;
 
     @media only screen and (min-width: 400px) {

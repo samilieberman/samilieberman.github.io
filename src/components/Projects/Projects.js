@@ -11,15 +11,18 @@ function Projects({ isMobile }) {
         <HeadingText> Projects </HeadingText>
       </Row>
       <Row>
-        {data[0].projects.map((item) => (
-           !isMobile ?
-          <StyledCol>
-            <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>: {item.description}
-          </StyledCol>
-          :
-          <StyledRow>
-            <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>: {item.description}
-          </StyledRow>
+        {data[0].projects.map((item, idx) => (
+          <div key={idx}>
+            {!isMobile ?
+            <StyledCol>
+              <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>: {item.description}
+            </StyledCol>
+            :
+            <StyledRow>
+              <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>: {item.description}
+            </StyledRow>
+          }
+          </div>
         ))}
       </Row>
     </ProjectsWrapper>
