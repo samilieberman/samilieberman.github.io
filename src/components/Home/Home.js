@@ -6,31 +6,29 @@ import { useState } from "react";
 
 function Home() {
   const [renderMsg, setRenderMsg] = useState(false);
-  
-  function onHeaderTyped(){
+
+  function onHeaderTyped() {
     setRenderMsg(true);
   }
 
   return (
     <HomeWrapper>
       <HeaderText>
-        {data.map((me, idx) => (
-          <div key={idx}>
-            <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}> 
-              <p>Hi, <StyledTypist.Delay ms={300} /> my name is {me.name}.</p>
-            </StyledTypist>
-            <StyledTypist.Delay ms={30000} />
-            {renderMsg &&
+        <>
+          <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}>
+            <p>Hi, <StyledTypist.Delay ms={300} /> my name is {data.name}.</p>
+          </StyledTypist>
+          <StyledTypist.Delay ms={30000} />
+          {renderMsg &&
             <StyledTypist
               cursor={{ show: false }}
               avgTypingDelay={40}
               startDelay={2000}
             >
-              <DescriptionText>{me.description}</DescriptionText>
+              <DescriptionText>{data.description}</DescriptionText>
             </StyledTypist>
-            }
-          </div>
-        ))}
+          }
+        </>
       </HeaderText>
       <Icons />
     </HomeWrapper>

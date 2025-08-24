@@ -10,7 +10,7 @@ const Education = forwardRef((_, ref) => {
       <Row ref={ref}>
         <HeadingText> Education </HeadingText>
       </Row>
-      {data[0].education.map((item, idx) => (
+      {data.education.map((item, idx) => (
         <Row key={idx}>
           <Text>
             {item.college}
