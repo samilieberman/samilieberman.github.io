@@ -11,7 +11,7 @@ function Projects({ isMobile }) {
         <HeadingText> Projects </HeadingText>
       </Row>
       <Row>
-        {data[0].projects.map((item, idx) => (
+        {data.projects.map((item, idx) => (
           <div key={idx}>
             {!isMobile ?
             <StyledCol>
