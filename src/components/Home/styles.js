@@ -11,6 +11,7 @@ const HomeWrapper = styled.div`
 const HeaderText = styled.div`
     align-items: center;
     display: flex;
+    flex-direction: column;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 40px;
     height: 65vh;
@@ -45,8 +46,6 @@ const StyledTypist = styled(Typist)`
 
 const Icons = styled(Contact)`
     align-self: flex-end;
-    position: fixed;
-    bottom: 0;
 `
 
 export {

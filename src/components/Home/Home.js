@@ -14,21 +14,19 @@ function Home() {
   return (
     <HomeWrapper>
       <HeaderText>
-        <>
-          <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}>
-            <p>Hi, <StyledTypist.Delay ms={300} /> my name is {data.name}.</p>
+        <StyledTypist cursor={{ show: false }} avgTypingDelay={40} onTypingDone={onHeaderTyped}>
+          <p>Hi, <StyledTypist.Delay ms={300} /> my name is {data.name}.</p>
+        </StyledTypist>
+        <StyledTypist.Delay ms={30000} />
+        {renderMsg &&
+          <StyledTypist
+            cursor={{ show: false }}
+            avgTypingDelay={40}
+            startDelay={2000}
+          >
+            <DescriptionText>{data.description}</DescriptionText>
           </StyledTypist>
-          <StyledTypist.Delay ms={30000} />
-          {renderMsg &&
-            <StyledTypist
-              cursor={{ show: false }}
-              avgTypingDelay={40}
-              startDelay={2000}
-            >
-              <DescriptionText>{data.description}</DescriptionText>
-            </StyledTypist>
-          }
-        </>
+        }
       </HeaderText>
       <Icons />
     </HomeWrapper>
