@@ -1,29 +1,33 @@
 import styled from 'styled-components'
-import { Container } from "react-bootstrap";
 
 const AppWrapper = styled.div`
-  background-color: ${props => props.theme === 'light' ? '#f0efe1' : 'black'};
-  color: ${props => props.theme === 'light' ? 'black' : 'white'};
+  background-color: ${props => props.$theme === 'light' ? '#f5f4ef' : '#111110'};
+  color: ${props => props.$theme === 'light' ? '#1c1c1a' : '#e6e4dc'};
+  min-height: 100vh;
   overflow-x: hidden;
+  transition: background-color 0.2s ease, color 0.2s ease;
 `;
 
-const Background = styled(Container)`
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  @media only screen and (min-width: 1024px) {
-    padding-left: 16rem;
-    padding-right: 16rem;
-  }  
+const Background = styled.div`
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
 `;
 
 const DownButton = styled.button`
-  align-self: center;
+  display: block;
+  margin: 1.5rem auto;
   background: transparent;
-  border: none; 
-  display: flex;
-  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: inherit;
+  opacity: 0.3;
+  transition: opacity 0.15s ease;
+  padding: 0;
+  &:hover {
+    opacity: 0.7;
+  }
 `;
 
 const Sticky = styled.div`
@@ -35,32 +39,42 @@ const Sticky = styled.div`
 `;
 
 const ThemeButton = styled.button`
-  font-size: 24px;
-  background-color: transparent;
-  border-color: transparent;
-  &:hover,
-  &:focus, 
-  &active {
-    background-color: transparent;
-    border-color: transparent;
-    outline: none !important;
-    box-shadow: none;
+  display: block;
+  margin-left: auto;
+  padding: 1.5rem 2rem 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: inherit;
+  opacity: 0.4;
+  transition: opacity 0.15s ease;
+  &:hover {
+    opacity: 0.85;
   }
 `;
 
 const UpBotton = styled.button`
-  align-self: center;
+  display: block;
+  margin: 1.5rem auto 0;
   background: transparent;
-  border: none; 
-  display: flex;
-  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: inherit;
+  opacity: 0.3;
+  transition: opacity 0.15s ease;
+  padding: 0;
+  &:hover {
+    opacity: 0.7;
+  }
 `;
 
 const WIP = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
-  background-color: ${(props) => props.background};
-  color: white;
 `;
 
 export { AppWrapper, Background, DownButton, Sticky, ThemeButton, UpBotton, WIP };

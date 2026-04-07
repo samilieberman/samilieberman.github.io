@@ -1,27 +1,26 @@
 import styled from 'styled-components'
 import { Container } from "react-bootstrap";
 
-const Text = styled.h3`
-  font-family: 'Nunito', sans-serif;
-  font-size: 1rem;
+const EducationWrapper = styled(Container)`
+  margin-top: 3rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 `;
 
 const HeadingText = styled.div`
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
-  &:hover {
-    color:#F4B400;
-  }
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.45;
+  margin-bottom: 1rem;
 `;
 
-const EducationWrapper = styled(Container)`
-  margin-top: 4rem;
-  align-items: center;
-  justify-content: center;
-
-  @media only screen and (min-width: 400px) {
-    margin-top: 5rem;
-}  
+const Text = styled.p`
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  opacity: 0.75;
 `;
 
 export { Text, HeadingText, EducationWrapper };

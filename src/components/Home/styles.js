@@ -1,53 +1,33 @@
 import styled from 'styled-components'
-import Typist from 'react-typist';
-import Contact from '../Contact/Contact';
 
 const HomeWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 4rem 0 0;
+  display: flex;
+  flex-direction: column;
 `;
 
 const HeaderText = styled.div`
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 40px;
-    height: 65vh;
-    justify-content: center;
-    margin: 50px;
-    text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
 
-    @media only screen and (min-width: 400px) {
-        font-size: 50px;
-    }  
-
-    @media only screen and (min-width: 600px) {
-        font-size: 65px;
-    }  
+  @media only screen and (min-width: 600px) {
+    font-size: 2.25rem;
+  }
 `;
 
 const DescriptionText = styled.div`
-    font-size: 25px;
+  font-size: 0.95rem;
+  opacity: 0.55;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 0.25rem;
 
-    @media only screen and (min-width: 400px) {
-        font-size: 35px;
-    }  
-
-    @media only screen and (min-width: 600px) {
-        font-size: 40px;
-    }  
+  @media only screen and (min-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
-const StyledTypist = styled(Typist)`
-    color: ${(props) => props.color};
-`
-
-const Icons = styled(Contact)`
-    align-self: flex-end;
-`
-
-export {
-    DescriptionText, HeaderText, StyledTypist, HomeWrapper, Icons
-}
+export { DescriptionText, HeaderText, HomeWrapper }

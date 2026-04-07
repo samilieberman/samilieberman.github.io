@@ -1,4 +1,3 @@
-import React from "react";
 import { Row } from "react-bootstrap";
 import { HeadingText, StyledCol, ProjectsWrapper, StyledRow } from "./styles";
 import data from "../../data.json";
