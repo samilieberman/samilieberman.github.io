@@ -1,8 +1,7 @@
-import React from "react";
 import { HeadingText, SkillBadge, SkillsWrapper } from "./styles";
 import data from "../../data.json";
 
-function Skills({ theme }) {
+function Skills() {
   return (
     <SkillsWrapper>
       <HeadingText>Skills</HeadingText>

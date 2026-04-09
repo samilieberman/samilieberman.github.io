@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
-const SkillsWrapper = styled.div`
+const SkillsWrapper = styled.section`
   margin-top: 3rem;
 `;
 
-const HeadingText = styled.div`
+const HeadingText = styled.h2`
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   opacity: 0.45;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 `;
 
 const SkillBadge = styled.span`

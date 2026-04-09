@@ -1,10 +1,9 @@
-import React from "react";
 import { HeadingText, WorkWrapper, JobRow, JobCompany, JobTitleRow, JobTitle, JobDate } from "./styles";
 import data from "../../data.json";
 
 function Work() {
   return (
-    <WorkWrapper fluid>
+    <WorkWrapper>
       <HeadingText>Work</HeadingText>
       {data.employment.map((employer, idx) => (
         <JobRow key={idx}>

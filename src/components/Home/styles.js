@@ -1,18 +1,18 @@
 import styled from 'styled-components'
 
-const HomeWrapper = styled.div`
+const HomeWrapper = styled.header`
   padding: 4rem 0 0;
   display: flex;
   flex-direction: column;
 `;
 
-const HeaderText = styled.div`
+const HeaderText = styled.h1`
   height: 75px;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.25;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;
 
   @media only screen and (min-width: 600px) {
     font-size: 2.25rem;
