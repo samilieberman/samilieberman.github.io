@@ -1,6 +1,6 @@
 # samilieberman.github.io
 
-Personal portfolio site for Sami Lieberman. Built with React + Vite, styled with styled-components, and deployed to GitHub Pages.
+My personal portfolio website. Built with React, Vite, styled-components, and deployed to GitHub Pages.
 
 ## Stack
 
