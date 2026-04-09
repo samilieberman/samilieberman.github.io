@@ -9,7 +9,6 @@ My personal portfolio website. Built with React, Vite, styled-components, and de
 - **styled-components** — component-scoped styles
 - **react-type-animation** — typewriter effect on the home screen
 - **react-social-icons** — social link icons
-- **Bootstrap / react-bootstrap** — grid and utility components
 
 ## Getting started
 

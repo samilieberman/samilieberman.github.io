@@ -1,15 +1,11 @@
-import { Row } from "react-bootstrap";
 import { HeadingText, StyledCol, ProjectsWrapper, StyledRow } from "./styles";
 import data from "../../data.json";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects({ isMobile }) {
   return (
-    <ProjectsWrapper fluid>
-      <Row>
-        <HeadingText> Projects </HeadingText>
-      </Row>
-      <Row>
+    <ProjectsWrapper>
+      <HeadingText> Projects </HeadingText>
+      <div>
         {data.projects.map((item, idx) => (
           <div key={idx}>
             {!isMobile ?
@@ -23,7 +19,7 @@ function Projects({ isMobile }) {
           }
           </div>
         ))}
-      </Row>
+      </div>
     </ProjectsWrapper>
   );
 }

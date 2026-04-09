@@ -1,10 +1,7 @@
 import styled from 'styled-components'
-import { Badge, Container } from "react-bootstrap";
 
-const SkillsWrapper = styled(Container)`
+const SkillsWrapper = styled.div`
   margin-top: 3rem;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 `;
 
 const HeadingText = styled.div`
@@ -16,19 +13,19 @@ const HeadingText = styled.div`
   margin-bottom: 1rem;
 `;
 
-const SkillBadge = styled(Badge)`
-  background-color: transparent !important;
-  border: 1px solid currentColor !important;
-  color: inherit !important;
-  font-size: 0.7rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.02em !important;
-  padding: 0.3rem 0.65rem !important;
-  margin-right: 0.4rem !important;
-  margin-bottom: 0.5rem !important;
-  border-radius: 2px !important;
+const SkillBadge = styled.span`
+  background-color: transparent;
+  border: 1px solid currentColor;
+  color: inherit;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0.65rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2px;
   opacity: 0.7;
-  display: inline-block !important;
+  display: inline-block;
 `;
 
 export { HeadingText, SkillBadge, SkillsWrapper }

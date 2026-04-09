@@ -1,7 +1,6 @@
 import { DescriptionText, HeaderText, HomeWrapper } from "./styles";
 import Contact from "../Contact/Contact";
 import data from "../../data.json";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { TypeAnimation } from 'react-type-animation';
 

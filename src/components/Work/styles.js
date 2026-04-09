@@ -1,10 +1,7 @@
 import styled from 'styled-components'
-import { Container } from "react-bootstrap";
 
-const WorkWrapper = styled(Container)`
+const WorkWrapper = styled.div`
   margin-top: 3rem;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 `;
 
 const HeadingText = styled.div`

@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-import { Navbar } from "react-bootstrap";
 
-const NavWrapper = styled(Navbar)`
+const NavWrapper = styled.nav`
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
 `;
 
 export { NavWrapper };

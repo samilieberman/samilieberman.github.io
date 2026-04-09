@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Col, Container } from 'react-bootstrap'
 
 const HeadingText = styled.div`
   font-family: 'Nunito', sans-serif;
@@ -10,7 +9,7 @@ const HeadingText = styled.div`
   }
 `;
 
-const StyledCol = styled(Col)`
+const StyledCol = styled.div`
   padding: .625rem;
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
@@ -20,7 +19,7 @@ const StyledRow = styled.div`
   margin-bottom: 10px;
 `
 
-const ProjectsWrapper = styled(Container)`
+const ProjectsWrapper = styled.div`
   align-items: center;
   justify-content: center;
 `;
