@@ -17,7 +17,7 @@ function Home() {
             () => setRenderMsg(true),
           ]}
           speed={60}
-          cursor={false}
+          cursor
         />
         {renderMsg && (
           <DescriptionText>

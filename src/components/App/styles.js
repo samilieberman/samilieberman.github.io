@@ -11,7 +11,7 @@ const AppWrapper = styled.div`
 const Background = styled.div`
   max-width: 660px;
   margin: 0 auto;
-  padding: 0 2rem 4rem;
+  padding: 0 2rem 2rem;
 `;
 
 const DownButton = styled.button`

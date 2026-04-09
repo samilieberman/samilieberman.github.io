@@ -7,7 +7,8 @@ const HomeWrapper = styled.div`
 `;
 
 const HeaderText = styled.div`
-  font-size: 1.75rem;
+  height: 75px;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.25;
